@@ -8,7 +8,7 @@
     "name": "Largest & Second Largest Element in Array",
     "difficulty": "Easy",
     "practice_url": "https://www.geeksforgeeks.org/problems/second-largest3735/1",
-    "article_url": "https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/second-largest-element",
     "video_url": "https://www.youtube.com/watch?v=37E9ckMDdTk",
     "notes": "Single-pass tracking: largest and second largest. Edge case: all elements equal."
   },
@@ -21,7 +21,7 @@
     "name": "Check if Array Is Sorted and Rotated",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
-    "article_url": "https://takeuforward.org/data-structure/check-if-an-array-is-sorted/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/check-if-an-array-is-sorted-in-ascending-order",
     "video_url": "https://www.youtube.com/watch?v=37E9ckMDdTk",
     "notes": "Count transitions where nums[i] > nums[(i+1)%n]. If count <= 1, then true."
   },
@@ -34,7 +34,7 @@
     "name": "Remove Duplicates from Sorted Array",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
-    "article_url": "https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/remove-duplicates-from-a-sorted-array-in-place",
     "video_url": "https://www.youtube.com/watch?v=Fm_p9lJ4Z_8",
     "notes": "Slow pointer i holds unique index, fast pointer j scans. nums[i+1] = nums[j] when different."
   },
@@ -47,7 +47,7 @@
     "name": "Move Zeroes to End",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/move-zeroes/",
-    "article_url": "https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/move-zeros-to-the-end-of-an-array",
     "video_url": "https://www.youtube.com/watch?v=eaSXElvi5A8",
     "notes": "First find index of first zero, then swap non-zero elements into it."
   },
@@ -60,7 +60,7 @@
     "name": "Rotate Array by K Places to Right",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/rotate-array/",
-    "article_url": "https://takeuforward.org/data-structure/rotate-array-by-k-elements/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/left-rotate-array-by-k-places",
     "video_url": "https://www.youtube.com/watch?v=wvcQg43_V8U",
     "notes": "k %= n. Reverse first n-k, reverse last k, reverse entire array. O(1) space."
   },
@@ -73,7 +73,7 @@
     "name": "Union of Two Sorted Arrays",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1",
-    "article_url": "https://takeuforward.org/data-structure/union-of-two-sorted-arrays/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/union-of-two-sorted-arrays",
     "video_url": "https://www.youtube.com/watch?v=wvcQg43_V8U",
     "notes": "Merge two pointers while skipping duplicates before adding to result."
   },
@@ -86,7 +86,7 @@
     "name": "Single Number (Find element appearing once)",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/single-number/",
-    "article_url": "https://takeuforward.org/arrays/find-the-number-that-appears-once-and-the-other-numbers-twice/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/single-number-i",
     "video_url": "https://www.youtube.com/watch?v=bYWLJb3vCWY",
     "notes": "XOR all elements. X ^ X = 0, X ^ 0 = X."
   },
@@ -99,7 +99,7 @@
     "name": "Missing Number in Range [0, n]",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/missing-number/",
-    "article_url": "https://takeuforward.org/arrays/find-the-missing-number-in-an-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/missing-number",
     "video_url": "https://www.youtube.com/watch?v=bYWLJb3vCWY",
     "notes": "Expected sum n*(n+1)//2 - actual sum, or XOR range with actual numbers."
   },
@@ -112,7 +112,7 @@
     "name": "Two Sum (Return Indices)",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/two-sum/",
-    "article_url": "https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/two-sum",
     "video_url": "https://www.youtube.com/watch?v=UXDSeD9mN-k",
     "notes": "Map: num -> index. Check if target - num exists. O(N) time, O(N) space."
   },
@@ -125,7 +125,7 @@
     "name": "Longest Subarray with Sum K (Positives + Negatives)",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1",
-    "article_url": "https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-sum-subarray-of-size-k",
     "video_url": "https://www.youtube.com/watch?v=frf7qxiN2qU",
     "notes": "PrefixSum map storing earliest index. If (curr_sum - K) in map, len = i - map[curr_sum - K]."
   },
@@ -138,7 +138,7 @@
     "name": "Sort Colors (Sort 0s, 1s, and 2s)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/sort-colors/",
-    "article_url": "https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/sort-array-0s-1s-2s",
     "video_url": "https://www.youtube.com/watch?v=tp8JIuCXBaU",
     "notes": "3 Pointers: low, mid, high. 0s to left of low, 2s to right of high. Single pass O(N)."
   },
@@ -151,7 +151,7 @@
     "name": "Majority Element (> n/2 occurrences)",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/majority-element/",
-    "article_url": "https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/majority-element-n-by-2",
     "video_url": "https://www.youtube.com/watch?v=nP_ns3uVOAc",
     "notes": "Candidate & count. If count == 0, new candidate. Same -> +1, diff -> -1. O(1) space."
   },
@@ -164,7 +164,7 @@
     "name": "Best Time to Buy and Sell Stock I",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-    "article_url": "https://takeuforward.org/data-structure/stock-buy-and-sell/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/best-time-to-buy-and-sell-stock",
     "video_url": "https://www.youtube.com/watch?v=excAOvwF_Wk",
     "notes": "Track min_price so far, compute potential profit = price - min_price, update max_profit."
   },
@@ -177,7 +177,7 @@
     "name": "Maximum Subarray Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/maximum-subarray/",
-    "article_url": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-sum-subarray-of-size-k",
     "video_url": "https://www.youtube.com/watch?v=AHZpyENo7k4",
     "notes": "curr_sum = max(x, curr_sum + x). Track max_so_far. Also practice printing the subarray indices."
   },
@@ -190,7 +190,7 @@
     "name": "Rearrange Array Elements by Sign",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
-    "article_url": "https://takeuforward.org/arrays/rearrange-array-elements-by-sign/",
+    "article_url": "https://takeuforward.org/practice/dsa/rearrange-array-elements-by-sign",
     "video_url": "https://www.youtube.com/watch?v=h4aBagy4Uok",
     "notes": "Positives at even indices (0, 2, 4..), negatives at odd indices (1, 3, 5..)."
   },
@@ -203,7 +203,7 @@
     "name": "Next Permutation",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/next-permutation/",
-    "article_url": "https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/next-permutation",
     "video_url": "https://www.youtube.com/watch?v=JDOXKqF60RQ",
     "notes": "Find pivot from right: a[i] < a[i+1]. Swap with next greater element to right, then reverse suffix."
   },
@@ -216,7 +216,7 @@
     "name": "Leaders in an Array",
     "difficulty": "Easy",
     "practice_url": "https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1",
-    "article_url": "https://takeuforward.org/data-structure/leaders-in-an-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/leaders-in-an-array",
     "video_url": "https://www.youtube.com/watch?v=cHrH9CQ8pmY",
     "notes": "Traverse from right to left maintaining maximum element seen so far."
   },
@@ -229,7 +229,7 @@
     "name": "Longest Consecutive Sequence",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/longest-consecutive-sequence/",
-    "article_url": "https://takeuforward.org/data-structure/longest-consecutive-sequence-in-an-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/longest-consecutive-sequence-in-an-array",
     "video_url": "https://www.youtube.com/watch?v=oO5uLE7EUlM",
     "notes": "Put in HashSet. Only start counting sequence if (num - 1) is NOT in set. O(N) total."
   },
@@ -242,7 +242,7 @@
     "name": "Set Matrix Zeroes",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/set-matrix-zeroes/",
-    "article_url": "https://takeuforward.org/data-structure/set-matrix-zero/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/set-matrix-zeroes",
     "video_url": "https://www.youtube.com/watch?v=N0MgLvLSXMM",
     "notes": "Use 1st row & 1st col as marker arrays + col0 boolean variable for O(1) space."
   },
@@ -255,7 +255,7 @@
     "name": "Rotate Image (Rotate Matrix 90 degrees Clockwise)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/rotate-image/",
-    "article_url": "https://takeuforward.org/data-structure/rotate-image-by-90-degree/",
+    "article_url": "https://takeuforward.org/practice/dsa/rotate-matrix-by-90-degrees",
     "video_url": "https://www.youtube.com/watch?v=Z0w2pnL3I80",
     "notes": "Transpose matrix (swap matrix[i][j] with matrix[j][i]), then reverse each row. In-place."
   },
@@ -268,7 +268,7 @@
     "name": "Spiral Matrix Traversal",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/spiral-matrix/",
-    "article_url": "https://takeuforward.org/data-structure/spiral-traversal-of-matrix/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/spiral-traversal-of-a-matrix",
     "video_url": "https://www.youtube.com/watch?v=3Zv-s9UUrFM",
     "notes": "Maintain 4 boundaries: top, bottom, left, right. Traverse edges and shrink boundaries."
   },
@@ -281,7 +281,7 @@
     "name": "Subarray Sum Equals K",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/subarray-sum-equals-k/",
-    "article_url": "https://takeuforward.org/arrays/subarrays-with-sum-k/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/subarray-sum-equals-k",
     "video_url": "https://www.youtube.com/watch?v=xvNwoz-ufZM",
     "notes": "Map: prefix_sum -> frequency. Initialize map[0] = 1. Add map[curr_sum - k] to answer."
   },
@@ -294,7 +294,7 @@
     "name": "Pascal's Triangle",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/pascals-triangle/",
-    "article_url": "https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/pascals-triangle-i",
     "video_url": "https://www.youtube.com/watch?v=bR7mQgwQ_o8",
     "notes": "Learn 3 variations: find element at (r, c) = (r-1)C(c-1), print nth row, generate full triangle."
   },
@@ -307,7 +307,7 @@
     "name": "Majority Element II (> n/3 occurrences)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/majority-element-ii/",
-    "article_url": "https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-an-array/",
+    "article_url": "https://takeuforward.org/practice/dsa/majority-element-ii",
     "video_url": "https://www.youtube.com/watch?v=vwZj1K0e9U8",
     "notes": "At most 2 elements can occur > n/3 times. Track 2 candidates and 2 counters, then verify."
   },
@@ -320,7 +320,7 @@
     "name": "3-Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/3sum/",
-    "article_url": "https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/3sum",
     "video_url": "https://www.youtube.com/watch?v=DhFh8Kw7ymk",
     "notes": "Sort array. Fix first element i, run two pointers (j, k) for remainder. Skip duplicate values."
   },
@@ -333,7 +333,7 @@
     "name": "4-Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/4sum/",
-    "article_url": "https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/4sum",
     "video_url": "https://www.youtube.com/watch?v=eD95WRfh81c",
     "notes": "Sort array. Fix i and j, use two pointers for k and l. Beware of integer overflow in sums."
   },
@@ -346,7 +346,7 @@
     "name": "Subarrays with Given XOR K",
     "difficulty": "Hard",
     "practice_url": "https://www.interviewbit.com/problems/subarray-with-given-xor/",
-    "article_url": "https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/count-subarrays-with-a-given-xor-k",
     "video_url": "https://www.youtube.com/watch?v=ePtS4Y34xhA",
     "notes": "xr = prefix_xor. xr ^ k is required. Count += map[xr ^ k]. map[xr]++."
   },
@@ -359,7 +359,7 @@
     "name": "Merge Overlapping Subintervals",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/merge-intervals/",
-    "article_url": "https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
+    "article_url": "https://takeuforward.org/practice/dsa/merge-intervals",
     "video_url": "https://www.youtube.com/watch?v=IexN60k62jo",
     "notes": "Sort intervals by start time. If current start <= previous end, merge (prev.end = max). Else new interval."
   },
@@ -372,7 +372,7 @@
     "name": "Merge Two Sorted Arrays Without Extra Space",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/merge-sorted-array/",
-    "article_url": "https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/merge-sorted-array",
     "video_url": "https://www.youtube.com/watch?v=n7uwj04E0I4",
     "notes": "Leetcode: fill from end (m+n-1). In-place GFG: Gap method (Shell sort logic) ceil(gap/2)."
   },
@@ -385,7 +385,7 @@
     "name": "Find Missing and Repeating Number",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1",
-    "article_url": "https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-the-missing-and-repeating-numbers-in-an-array",
     "video_url": "https://www.youtube.com/watch?v=2D0GU8ChkcY",
     "notes": "Equations: S - Sn = x - y and S2 - S2n = x^2 - y^2. Or XOR grouping with rightmost set bit."
   },
@@ -398,7 +398,7 @@
     "name": "Maximum Product Subarray",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/maximum-product-subarray/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-product-subarray",
     "video_url": "https://www.youtube.com/watch?v=hnswaLJvr6g",
     "notes": "Compute prefix and suffix products. If product is 0, reset to 1. Track global maximum."
   },
@@ -411,7 +411,7 @@
     "name": "Count Inversions in an Array",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
-    "article_url": "https://takeuforward.org/data-structure/count-inversions-in-an-array/",
+    "article_url": "https://takeuforward.org/practice/dsa/count-inversions",
     "video_url": "https://www.youtube.com/watch?v=AseUmwVNaoY",
     "notes": "In merge step: if arr[left] > arr[right], count += (mid - left + 1) because all left are sorted."
   },
@@ -424,7 +424,7 @@
     "name": "Reverse Pairs (nums[i] > 2*nums[j])",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/reverse-pairs/",
-    "article_url": "https://takeuforward.org/data-structure/count-reverse-pairs/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/count-reverse-pairs",
     "video_url": "https://www.youtube.com/watch?v=0e4bZaP3MDI",
     "notes": "Count valid pairs right before merging each halved array in merge sort. O(N log N)."
   },
@@ -437,7 +437,7 @@
     "name": "Subarray Sums Divisible by K",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
-    "article_url": "https://takeuforward.org/arrays/subarrays-with-sum-k/",
+    "article_url": "https://takeuforward.org/practice/dsa/count-subarrays-with-given-sum",
     "video_url": "https://www.youtube.com/watch?v=xvNwoz-ufZM",
     "notes": "Prefix sum % k. Maintain frequency map of remainders. (rem + k) % k to handle negative numbers."
   },
@@ -450,7 +450,7 @@
     "name": "Spiral Matrix II (Generate Matrix)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/spiral-matrix-ii/",
-    "article_url": "https://takeuforward.org/data-structure/spiral-traversal-of-matrix/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/spiral-traversal-of-a-matrix",
     "video_url": "https://www.youtube.com/watch?v=3Zv-s9UUrFM",
     "notes": "Fill matrix sequentially from 1 to n^2 by tracking top, bottom, left, and right bounds."
   },
@@ -463,7 +463,7 @@
     "name": "Container With Most Water",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/container-with-most-water/",
-    "article_url": "https://takeuforward.org/data-structure/trapping-rainwater/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/container-with-most-water",
     "video_url": "https://www.youtube.com/watch?v=m18Hntz4EB8",
     "notes": "Pointers at both ends. Area = (r - l) * min(h[l], h[r]). Always move the pointer with smaller height."
   },
@@ -476,7 +476,7 @@
     "name": "Week 1 Hard Review: Next Permutation & Reverse Pairs",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/reverse-pairs/",
-    "article_url": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+    "article_url": "https://takeuforward.org/practice/dsa/reverse-pairs",
     "video_url": "https://www.youtube.com/watch?v=0e4bZaP3MDI",
     "notes": "Re-code from scratch without looking: 1) Next Permutation 2) Subarray Sum Equals K 3) Reverse Pairs."
   },
@@ -489,7 +489,7 @@
     "name": "Binary Search in Sorted Array",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/binary-search/",
-    "article_url": "https://takeuforward.org/data-structure/binary-search-explained/",
+    "article_url": "https://takeuforward.org/practice/dsa/search-x-in-sorted-array",
     "video_url": "https://www.youtube.com/watch?v=MHf6X3XkeGU",
     "notes": "mid = low + (high - low)//2 to prevent integer overflow. O(log N)."
   },
@@ -502,7 +502,7 @@
     "name": "Implement Lower Bound and Upper Bound",
     "difficulty": "Easy",
     "practice_url": "https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1",
-    "article_url": "https://takeuforward.org/arrays/implement-lower-bound-bs-2/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/lower-bound-in-sorted-array",
     "video_url": "https://www.youtube.com/watch?v=6zhGS79oQ4k",
     "notes": "Lower Bound: smallest index where arr[idx] >= x. Upper Bound: arr[idx] > x."
   },
@@ -515,7 +515,7 @@
     "name": "Search Insert Position",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/search-insert-position/",
-    "article_url": "https://takeuforward.org/arrays/search-insert-position/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/search-insert-position",
     "video_url": "https://www.youtube.com/watch?v=6zhGS79oQ4k",
     "notes": "Directly equal to finding the Lower Bound index of target in sorted array."
   },
@@ -528,7 +528,7 @@
     "name": "Count Occurrences in Sorted Array",
     "difficulty": "Easy",
     "practice_url": "https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1",
-    "article_url": "https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/count-occurrences-in-a-sorted-array",
     "video_url": "https://www.youtube.com/watch?v=hjR1IYVx9lY",
     "notes": "Count = (last_pos - first_pos + 1) if present, else 0."
   },
@@ -541,7 +541,7 @@
     "name": "First and Last Position of Element in Sorted Array",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
-    "article_url": "https://takeuforward.org/data-structure/last-occurrence-in-a-sorted-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/last-occurrence-in-a-sorted-array",
     "video_url": "https://www.youtube.com/watch?v=hjR1IYVx9lY",
     "notes": "Run two separate binary searches: one biasing left (high = mid-1), one biasing right (low = mid+1)."
   },
@@ -554,7 +554,7 @@
     "name": "Search in Rotated Sorted Array I (Unique Elements)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-    "article_url": "https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/search-in-rotated-sorted-array",
     "video_url": "https://www.youtube.com/watch?v=5qGrJbHhqFs",
     "notes": "At least one half (left or right) is always sorted. Check if target lies in sorted half."
   },
@@ -567,7 +567,7 @@
     "name": "Search in Rotated Sorted Array II (With Duplicates)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
-    "article_url": "https://takeuforward.org/arrays/search-element-in-rotated-sorted-array-ii/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/search-in-rotated-sorted-array-ii",
     "video_url": "https://www.youtube.com/watch?v=w2G2W8l__pc",
     "notes": "When arr[low] == arr[mid] == arr[high], shrink search space: low++, high--."
   },
@@ -580,7 +580,7 @@
     "name": "Find Minimum in Rotated Sorted Array",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
-    "article_url": "https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-minimum-in-rotated-sorted-array",
     "video_url": "https://www.youtube.com/watch?v=nhEMDKMB44g",
     "notes": "If arr[low] <= arr[high], min is arr[low]. Else eliminate sorted half after recording its min."
   },
@@ -593,7 +593,7 @@
     "name": "Single Element in a Sorted Array",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
-    "article_url": "https://takeuforward.org/data-structure/search-single-element-in-a-sorted-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/single-element-in-a-sorted-array",
     "video_url": "https://www.youtube.com/watch?v=AZOmHuHadxQ",
     "notes": "Left of single element: (even, odd) index pairs match. Right: (odd, even) match. Check mid parity."
   },
@@ -606,7 +606,7 @@
     "name": "Find Peak Element",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/find-peak-element/",
-    "article_url": "https://takeuforward.org/data-structure/find-peak-element/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-a-peak-element-in-an-array",
     "video_url": "https://www.youtube.com/watch?v=cXxmbemS6XM",
     "notes": "If arr[mid] > arr[mid+1], peak lies on left (including mid). Else peak lies on right."
   },
@@ -619,7 +619,7 @@
     "name": "Square Root & Nth Root of Integer",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/sqrtx/",
-    "article_url": "https://takeuforward.org/data-structure/finding-sqrt-of-a-number-using-binary-search/",
+    "article_url": "https://takeuforward.org/practice/dsa/find-square-root-of-a-number",
     "video_url": "https://www.youtube.com/watch?v=Bsv3FPUX_BA",
     "notes": "Search range [1, N]. If mid*mid <= n, record mid and search right."
   },
@@ -632,7 +632,7 @@
     "name": "Koko Eating Bananas",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/koko-eating-bananas/",
-    "article_url": "https://takeuforward.org/data-structure/koko-eating-bananas/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/koko-eating-bananas",
     "video_url": "https://www.youtube.com/watch?v=qyfekrNni90",
     "notes": "Search speed k in [1, max(piles)]. Predicate: sum(ceil(pile/k)) <= h. Find minimum feasible k."
   },
@@ -645,7 +645,7 @@
     "name": "Minimum Days to Make M Bouquets",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
-    "article_url": "https://takeuforward.org/arrays/minimum-days-to-make-m-bouquets/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-days-to-make-m-bouquets",
     "video_url": "https://www.youtube.com/watch?v=TXAuxeYBTdg",
     "notes": "Day range [min(bloomDay), max(bloomDay)]. Count consecutive bloomed flowers / k."
   },
@@ -658,7 +658,7 @@
     "name": "Capacity to Ship Packages within D Days",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
-    "article_url": "https://takeuforward.org/data-structure/capacity-to-ship-packages-within-d-days/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/capacity-to-ship-packages-within-d-days",
     "video_url": "https://www.youtube.com/watch?v=MG-Ac4TAvTY",
     "notes": "Capacity range [max(weights), sum(weights)]. Greedily pack until exceeding capacity."
   },
@@ -671,7 +671,7 @@
     "name": "Aggressive Cows (Distance Maximization)",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/aggressive-cows/0",
-    "article_url": "https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/aggressive-cows",
     "video_url": "https://www.youtube.com/watch?v=R_Mfw4ew-Vo",
     "notes": "Sort stalls. Binary search minimum distance d in [1, max - min]. Greedily place cows."
   },
@@ -684,7 +684,7 @@
     "name": "Book Allocation Problem / Split Array Largest Sum",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/split-array-largest-sum/",
-    "article_url": "https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/split-array-largest-sum",
     "video_url": "https://www.youtube.com/watch?v=Z0hwjftStI4",
     "notes": "Range [max(pages), sum(pages)]. Predicate: can we allocate to <= m students? Find min capacity."
   },
@@ -697,7 +697,7 @@
     "name": "Median of Two Sorted Arrays",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-    "article_url": "https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/median-of-2-sorted-arrays",
     "video_url": "https://www.youtube.com/watch?v=C2rRzz-QkU4",
     "notes": "BS on smaller array partition cut1 in [0, n1]. Check l1 <= r2 and l2 <= r1. O(log(min(N, M)))."
   },
@@ -710,7 +710,7 @@
     "name": "K-th Element of Two Sorted Arrays",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1",
-    "article_url": "https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/kth-element-of-two-sorted-arrays",
     "video_url": "https://www.youtube.com/watch?v=nv7F4PiLUzo",
     "notes": "Same as median partition cut, but cut1 in [max(0, k-m), min(k, n)]."
   },
@@ -723,7 +723,7 @@
     "name": "Search a 2D Matrix I (Strictly Sorted)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/search-a-2d-matrix/",
-    "article_url": "https://takeuforward.org/data-structure/search-in-a-2d-matrix-gfg-bfs/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/search-in-sorted-2d-matrix",
     "video_url": "https://www.youtube.com/watch?v=JX5WPC5nvdA",
     "notes": "Flatten virtual 1D index: row = mid // cols, col = mid % cols. Standard BS in [0, m*n - 1]."
   },
@@ -736,7 +736,7 @@
     "name": "Search a 2D Matrix II (Rows & Columns Sorted)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
-    "article_url": "https://takeuforward.org/arrays/search-in-a-row-and-column-wise-sorted-matrix/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/search-in-a-row-and-column-wise-sorted-matrix",
     "video_url": "https://www.youtube.com/watch?v=9ZbB3975004",
     "notes": "Start at top-right corner (0, cols-1). If val > target col--, else if val < target row++. O(M+N)."
   },
@@ -749,7 +749,7 @@
     "name": "Find Peak Element in 2D Matrix",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/find-a-peak-element-ii/",
-    "article_url": "https://takeuforward.org/data-structure/find-peak-element-in-a-2d-matrix/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-peak-element-2d-matrix",
     "video_url": "https://www.youtube.com/watch?v=nGGp5XAzFull",
     "notes": "Pick mid column, find row with max element in that column. Compare with left & right neighbors."
   },
@@ -762,7 +762,7 @@
     "name": "Longest Substring Without Repeating Characters",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-    "article_url": "https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/longest-substring-without-repeating-characters",
     "video_url": "https://www.youtube.com/watch?v=qtVh-XEpsVD0",
     "notes": "Map: char -> last seen index. When duplicate seen, jump left = max(left, map[c] + 1)."
   },
@@ -775,7 +775,7 @@
     "name": "Max Consecutive Ones III (Flip K Zeroes)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
-    "article_url": "https://takeuforward.org/sliding-window/max-consecutive-ones-iii/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/max-consecutive-ones-iii",
     "video_url": "https://www.youtube.com/watch?v=3E4JBHSLpYk",
     "notes": "Maintain window with at most k zeroes. If zeroes > k, increment left pointer."
   },
@@ -788,7 +788,7 @@
     "name": "Longest Repeating Character Replacement",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
-    "article_url": "https://takeuforward.org/sliding-window/longest-repeating-character-replacement/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/longest-repeating-character-replacement",
     "video_url": "https://www.youtube.com/watch?v=_eNhaDCr6P0",
     "notes": "Window length - max_freq <= k. Track max_freq in window. O(N) single pass."
   },
@@ -801,7 +801,7 @@
     "name": "Binary Subarrays With Sum & Nice Subarrays",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/binary-subarrays-with-sum/",
-    "article_url": "https://takeuforward.org/sliding-window/count-subarrays-with-sum-k/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/binary-subarrays-with-sum",
     "video_url": "https://www.youtube.com/watch?v=XnMdNUkX6fE",
     "notes": "Golden pattern: count(sum == k) = countAtMost(k) - countAtMost(k-1). Reduces to sliding window!"
   },
@@ -814,7 +814,7 @@
     "name": "Fruit Into Baskets",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/fruit-into-baskets/",
-    "article_url": "https://takeuforward.org/sliding-window/fruit-into-baskets/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/fruit-into-baskets",
     "video_url": "https://www.youtube.com/watch?v=e3bs0uA1bcQ",
     "notes": "Equivalent to Longest Subarray with at most 2 distinct characters. Hash map of counts."
   },
@@ -827,7 +827,7 @@
     "name": "Minimum Size Subarray Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/minimum-size-subarray-sum/",
-    "article_url": "https://takeuforward.org/sliding-window/minimum-window-substring/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-window-substring",
     "video_url": "https://www.youtube.com/watch?v=WJaij9ffOIY",
     "notes": "Expand right until sum >= target, then shrink left to find minimal window length."
   },
@@ -840,7 +840,7 @@
     "name": "Number of Substrings Containing All Three Characters (a, b, c)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
-    "article_url": "https://takeuforward.org/sliding-window/number-of-substrings-containing-all-three-characters/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/count-substrings-containing-all-three-characters-a-b-and-c",
     "video_url": "https://www.youtube.com/watch?v=xtqN4qlgr8s",
     "notes": "Track last seen index of 'a', 'b', 'c'. Valid substrings ending at i is 1 + min(last_a, last_b, last_c)."
   },
@@ -853,7 +853,7 @@
     "name": "Maximum Points You Can Obtain from Cards",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
-    "article_url": "https://takeuforward.org/sliding-window/maximum-points-you-can-obtain-from-cards/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-points-you-can-obtain-from-cards",
     "video_url": "https://www.youtube.com/watch?v=pBWCOCS636U",
     "notes": "Start with left sum of first k cards. Shift window: subtract card from left, add card from right."
   },
@@ -866,7 +866,7 @@
     "name": "Subarrays with K Different Integers",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
-    "article_url": "https://takeuforward.org/sliding-window/subarrays-with-k-different-integers/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/subarrays-with-k-different-integers",
     "video_url": "https://www.youtube.com/watch?v=7wYGbV_LsX4",
     "notes": "Compute exactlyK(nums, k) = atMostK(nums, k) - atMostK(nums, k-1). Each atMost is standard O(N)."
   },
@@ -879,7 +879,7 @@
     "name": "Minimum Window Substring",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/minimum-window-substring/",
-    "article_url": "https://takeuforward.org/sliding-window/minimum-window-substring/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-window-substring",
     "video_url": "https://www.youtube.com/watch?v=WJaij9ffOIY",
     "notes": "Track required character counts. Once count == 0, shrink from left while valid to find minimal length."
   },
@@ -892,7 +892,7 @@
     "name": "Reverse a Linked List (Iterative & Recursive)",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/reverse-linked-list/",
-    "article_url": "https://takeuforward.org/data-structure/reverse-a-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/reverse-linked-list-ii",
     "video_url": "https://www.youtube.com/watch?v=D2vI2DNJGd8",
     "notes": "Iterative: prev = None, curr = head, next_node = curr.next, curr.next = prev. Master recursive too."
   },
@@ -905,7 +905,7 @@
     "name": "Middle of the Linked List",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/middle-of-the-linked-list/",
-    "article_url": "https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-middle-of-linked-list",
     "video_url": "https://www.youtube.com/watch?v=7LjQ57RqgEc",
     "notes": "slow moves 1 step, fast moves 2 steps. When fast or fast.next is None, slow is at middle."
   },
@@ -918,7 +918,7 @@
     "name": "Detect Loop in Linked List",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/linked-list-cycle/",
-    "article_url": "https://takeuforward.org/data-structure/detect-a-cycle-in-a-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/detect-cycle-linked-list",
     "video_url": "https://www.youtube.com/watch?v=wiOo4DC5GGA",
     "notes": "If fast and slow pointers meet, cycle exists. If fast reaches None, no cycle."
   },
@@ -931,7 +931,7 @@
     "name": "Find Starting Point of Loop in Linked List",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/linked-list-cycle-ii/",
-    "article_url": "https://takeuforward.org/data-structure/find-the-starting-point-of-the-loop-in-a-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-pairs-with-given-sum-in-doubly-linked-list",
     "video_url": "https://www.youtube.com/watch?v=2Kd0KKmmHFc",
     "notes": "When slow and fast meet, reset slow to head. Advance both 1 step at a time; meeting node is start!"
   },
@@ -944,7 +944,7 @@
     "name": "Check if Linked List is Palindrome",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/palindrome-linked-list/",
-    "article_url": "https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/check-if-a-linked-list-is-a-palindrome",
     "video_url": "https://www.youtube.com/watch?v=-DtNInqFArs",
     "notes": "Find middle, reverse second half, compare first and second half, restore second half."
   },
@@ -957,7 +957,7 @@
     "name": "Remove Nth Node from End of List",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-    "article_url": "https://takeuforward.org/data-structure/remove-n-th-node-from-the-end-of-a-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/remove-the-nth-node-from-the-end-of-a-linked-list",
     "video_url": "https://www.youtube.com/watch?v=3kMKYQ2wNIU",
     "notes": "Use dummy node. Advance fast pointer by N steps ahead. Then move both until fast reaches end."
   },
@@ -970,7 +970,7 @@
     "name": "Odd Even Linked List",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/odd-even-linked-list/",
-    "article_url": "https://takeuforward.org/data-structure/segregate-even-and-odd-nodes-in-linkedlist/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/segregate-odd-and-even-nodes-in-linked-list",
     "video_url": "https://www.youtube.com/watch?v=qf6hmP1443c",
     "notes": "Maintain odd and even pointers + evenHead. Link odd.next = odd.next.next. In the end, odd.next = evenHead."
   },
@@ -983,7 +983,7 @@
     "name": "Sort a Linked List",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/sort-list/",
-    "article_url": "https://takeuforward.org/data-structure/sort-a-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/sort-a-linked-list-using-merge-sort",
     "video_url": "https://www.youtube.com/watch?v=8ocB7a_c-Cc",
     "notes": "Find middle with slow/fast (break link: mid.next = None), sort left and right recursively, merge sorted lists."
   },
@@ -996,7 +996,7 @@
     "name": "Intersection Point of Two Linked Lists",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
-    "article_url": "https://takeuforward.org/data-structure/find-intersection-of-two-linked-lists/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/intersection-of-two-linked-lists",
     "video_url": "https://www.youtube.com/watch?v=u4FWX4gSMr8",
     "notes": "p1 = p1.next if p1 else headB; p2 = p2.next if p2 else headA. They meet at intersection in 2 passes!"
   },
@@ -1009,7 +1009,7 @@
     "name": "Add Two Numbers Represented as Linked Lists",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/add-two-numbers/",
-    "article_url": "https://takeuforward.org/data-structure/add-two-numbers-represented-as-linked-lists/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/add-two-numbers-linked-lists-reverse-order",
     "video_url": "https://www.youtube.com/watch?v=XmRrGzR6UdE",
     "notes": "Iterate while l1, l2 or carry > 0. val = (l1.val + l2.val + carry) % 10, carry = sum // 10."
   },
@@ -1022,7 +1022,7 @@
     "name": "Copy List with Random Pointer",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
-    "article_url": "https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/clone-linked-list-random-pointer",
     "video_url": "https://www.youtube.com/watch?v=q570bKdrnlw",
     "notes": "Step 1: Create copy nodes and insert between originals. Step 2: Assign copy.random. Step 3: Separate lists."
   },
@@ -1035,7 +1035,7 @@
     "name": "Design LRU Cache",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/lru-cache/",
-    "article_url": "https://takeuforward.org/data-structure/lru-cache-implementation/",
+    "article_url": "https://takeuforward.org/practice/dsa/lru-cache",
     "video_url": "https://www.youtube.com/watch?v=z9bJUPxzFOw",
     "notes": "Map: key -> Node. Doubly Linked List with head and tail sentinel nodes. Remove node, insert after head."
   },
@@ -1048,7 +1048,7 @@
     "name": "Rotate List by K Places",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/rotate-list/",
-    "article_url": "https://takeuforward.org/data-structure/rotate-a-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/rotate-linked-list-right-k-places",
     "video_url": "https://www.youtube.com/watch?v=uT7YI7XbTY8",
     "notes": "Connect tail to head to form ring. Break ring at (len - (k % len))th node."
   },
@@ -1061,7 +1061,7 @@
     "name": "Reverse Nodes in K-Group",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
-    "article_url": "https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/reverse-linked-list-k-groups",
     "video_url": "https://www.youtube.com/watch?v=Of0HPkk3JgI",
     "notes": "Check if k nodes exist ahead. If yes, reverse k nodes and link with previous block. Repeat."
   },
@@ -1074,7 +1074,7 @@
     "name": "Flattening a Linked List (Multi-level child)",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1",
-    "article_url": "https://takeuforward.org/data-structure/flattening-a-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/flatten-linked-list",
     "video_url": "https://www.youtube.com/watch?v=ysytSSXpAI0",
     "notes": "Recursively merge bottom lists from right to left using standard sorted 2-list merge."
   },
@@ -1087,7 +1087,7 @@
     "name": "Design LFU (Least Frequently Used) Cache",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/lfu-cache/",
-    "article_url": "https://takeuforward.org/data-structure/lfu-cache-implementation/",
+    "article_url": "https://takeuforward.org/practice/dsa/lfu-cache",
     "video_url": "https://www.youtube.com/watch?v=0PSB9y8ehbk",
     "notes": "Map: key -> Node, freqMap: freq -> DoublyLinkedList. Track minFreq. Update node frequency on access."
   },
@@ -1100,7 +1100,7 @@
     "name": "Longest Common Prefix",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/longest-common-prefix/",
-    "article_url": "https://takeuforward.org/data-structure/longest-common-prefix/",
+    "article_url": "https://takeuforward.org/practice/dsa/longest-common-prefix",
     "video_url": "https://www.youtube.com/watch?v=wtOQaovlhnY",
     "notes": "Sort strings and compare only first and last string, or scan horizontally character by character."
   },
@@ -1113,7 +1113,7 @@
     "name": "Isomorphic Strings",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/isomorphic-strings/",
-    "article_url": "https://takeuforward.org/strings/isomorphic-strings/",
+    "article_url": "https://takeuforward.org/practice/dsa/isomorphic-string",
     "video_url": "https://www.youtube.com/watch?v=7yF-U1hLEqE",
     "notes": "Two maps: s->t and t->s to ensure one-to-one mapping (bijection). Same length requirement."
   },
@@ -1126,7 +1126,7 @@
     "name": "Valid Anagram",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/valid-anagram/",
-    "article_url": "https://takeuforward.org/data-structure/check-if-two-strings-are-anagrams-of-each-other/",
+    "article_url": "https://takeuforward.org/practice/dsa/valid-anagram",
     "video_url": "https://www.youtube.com/watch?v=kERFVp5ioeY",
     "notes": "Array of size 26. Increment for s, decrement for t. Check all values are 0."
   },
@@ -1139,7 +1139,7 @@
     "name": "Reverse Words in a String",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/reverse-words-in-a-string/",
-    "article_url": "https://takeuforward.org/data-structure/reverse-words-in-a-string/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/reverse-every-word-in-a-string",
     "video_url": "https://www.youtube.com/watch?v=vhnRAaJEbpA",
     "notes": "Trim spaces, split into words, reverse word order, join with single space. Or reverse in-place."
   },
@@ -1152,7 +1152,7 @@
     "name": "Sort Characters by Frequency",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/sort-characters-by-frequency/",
-    "article_url": "https://takeuforward.org/strings/sort-characters-by-frequency/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/sort-characters-by-frequency",
     "video_url": "https://www.youtube.com/watch?v=hG3383fc2wk",
     "notes": "Count frequencies. Use bucket sort where bucket[f] stores chars with frequency f. O(N)."
   },
@@ -1165,7 +1165,7 @@
     "name": "String to Integer (atoi)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/string-to-integer-atoi/",
-    "article_url": "https://takeuforward.org/strings/string-to-integer-atoi/",
+    "article_url": "https://takeuforward.org/practice/dsa/string-to-integer-atoi",
     "video_url": "https://www.youtube.com/watch?v=1bEZK_X2p8Y",
     "notes": "Handle leading spaces, sign (+/-), digit reading with clamping to INT_MIN (-2^31) and INT_MAX (2^31-1)."
   },
@@ -1178,7 +1178,7 @@
     "name": "Longest Palindromic Substring",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/longest-palindromic-substring/",
-    "article_url": "https://takeuforward.org/data-structure/longest-palindromic-substring/",
+    "article_url": "https://takeuforward.org/practice/dsa/longest-palindromic-substring",
     "video_url": "https://www.youtube.com/watch?v=XYQecbcd6fY",
     "notes": "Expand around center for both odd (i, i) and even (i, i+1) centers. O(N^2) time, O(1) space."
   },
@@ -1191,7 +1191,7 @@
     "name": "Sum of Beauty of All Substrings",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
-    "article_url": "https://takeuforward.org/strings/sum-of-beauty-of-all-substrings/",
+    "article_url": "https://takeuforward.org/practice/dsa/sum-of-beauty-of-all-substrings",
     "video_url": "https://www.youtube.com/watch?v=X2hK8i_Dq7o",
     "notes": "Beauty = max_freq - min_freq (for non-zero freq chars). Nested loop O(26 * N^2)."
   },
@@ -1204,7 +1204,7 @@
     "name": "Repeated String Match",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/repeated-string-match/",
-    "article_url": "https://takeuforward.org/strings/repeated-string-match/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/repeated-string-match",
     "video_url": "https://www.youtube.com/watch?v=V5-7GzOfADQ",
     "notes": "Repeat string A until len(A) >= len(B). Check if B in A; if not, check A + original_A."
   },
@@ -1217,7 +1217,7 @@
     "name": "Longest Happy Prefix / Find String in String",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/longest-happy-prefix/",
-    "article_url": "https://takeuforward.org/data-structure/kmp-algorithm-for-pattern-searching/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/longest-happy-prefix",
     "video_url": "https://www.youtube.com/watch?v=V5-7GzOfADQ",
     "notes": "Build Longest Prefix Suffix (LPS) array in O(N). lps[n-1] gives length of longest proper prefix=suffix."
   },
@@ -1230,7 +1230,7 @@
     "name": "Shortest Palindrome (Add chars in front)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/shortest-palindrome/",
-    "article_url": "https://takeuforward.org/data-structure/shortest-palindrome-using-kmp/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/shortest-palindrome",
     "video_url": "https://www.youtube.com/watch?v=sZms6d80c0M",
     "notes": "Combine s + '#' + reverse(s). Compute LPS array. Missing palindrome suffix = s[lps[-1]:]. Reverse & prepend."
   },
@@ -1243,7 +1243,7 @@
     "name": "Z-Algorithm for Pattern Search & Rabin-Karp",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/rabin-karp-algorithm-for-pattern-searching/1",
-    "article_url": "https://takeuforward.org/data-structure/rabin-karp-algorithm-for-pattern-searching/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/introduction-to-pattern-matching-algorithm",
     "video_url": "https://www.youtube.com/watch?v=qQ8vS2btsxI",
     "notes": "Rabin-Karp uses rolling hash. Modulo arithmetic to prevent overflow. Verify hash collision."
   },
@@ -1256,7 +1256,7 @@
     "name": "Swap Nodes in Pairs",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/swap-nodes-in-pairs/",
-    "article_url": "https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/swap-nodes-in-pairs",
     "video_url": "https://www.youtube.com/watch?v=Of0HPkk3JgI",
     "notes": "Special case of k-group with k=2. Dummy node + pointer manipulation."
   },
@@ -1269,7 +1269,7 @@
     "name": "Reorder List (L0 -> Ln -> L1 -> Ln-1)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/reorder-list/",
-    "article_url": "https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/reorder-list",
     "video_url": "https://www.youtube.com/watch?v=-DtNInqFArs",
     "notes": "Triple pattern integration: 1) Find mid. 2) Reverse second half. 3) Interleave two halves."
   },
@@ -1282,7 +1282,7 @@
     "name": "Week 3 Mastery Check: LRU Cache & K-Group Reversal",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/lru-cache/",
-    "article_url": "https://takeuforward.org/data-structure/lru-cache-implementation/",
+    "article_url": "https://takeuforward.org/practice/dsa/lru-cache",
     "video_url": "https://www.youtube.com/watch?v=z9bJUPxzFOw",
     "notes": "Code LRU Cache and Reverse K-group on a blank whiteboard / LeetCode scratchpad without looking at notes."
   },
@@ -1295,7 +1295,7 @@
     "name": "Valid Parentheses",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/valid-parentheses/",
-    "article_url": "https://takeuforward.org/data-structure/check-for-balanced-parentheses/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/check-balanced-parentheses-using-a-stack",
     "video_url": "https://www.youtube.com/watch?v=wkDfsKijrNE",
     "notes": "Push opening brackets. On closing bracket, match with stack.top() and pop. Stack must be empty at end."
   },
@@ -1308,7 +1308,7 @@
     "name": "Implement Queue using Stacks (Amortized O(1))",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/implement-queue-using-stacks/",
-    "article_url": "https://takeuforward.org/data-structure/implement-queue-using-stack/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/implement-a-queue-using-stacks",
     "video_url": "https://www.youtube.com/watch?v=3Et9MrMc02A",
     "notes": "Two stacks: input and output. Push to input. Pop from output; if output empty, pour all from input to output."
   },
@@ -1321,7 +1321,7 @@
     "name": "Implement Min Stack in O(1) Time & Space",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/min-stack/",
-    "article_url": "https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/implement-a-stack-using-a-linked-list",
     "video_url": "https://www.youtube.com/watch?v=V09NfaGf2ao",
     "notes": "O(1) space trick: push 2*val - minVal when val < minVal. Or store (val, currentMin) pair."
   },
@@ -1334,7 +1334,7 @@
     "name": "Infix to Postfix Conversion",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1",
-    "article_url": "https://takeuforward.org/data-structure/infix-to-postfix/",
+    "article_url": "https://takeuforward.org/practice/dsa/infix-to-postfix-conversion",
     "video_url": "https://www.youtube.com/watch?v=4pIc9UBHJtk",
     "notes": "Operator precedence table. Pop operators with higher or equal precedence before pushing current."
   },
@@ -1347,7 +1347,7 @@
     "name": "Evaluate Reverse Polish Notation (Postfix)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-    "article_url": "https://takeuforward.org/data-structure/postfix-to-infix/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/evaluate-reverse-polish-notation",
     "video_url": "https://www.youtube.com/watch?v=4pIc9UBHJtk",
     "notes": "Push operands. On operator, pop right operand then left operand, evaluate, push result."
   },
@@ -1360,7 +1360,7 @@
     "name": "Next Greater Element I",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/next-greater-element-i/",
-    "article_url": "https://takeuforward.org/data-structure/next-greater-element-using-stack/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/next-greater-element-ii-circular-array",
     "video_url": "https://www.youtube.com/watch?v=Du881K7Jtk8",
     "notes": "Traverse from right. Pop while stack.top() <= num. nge[num] = stack.top() if stack else -1. Push num."
   },
@@ -1373,7 +1373,7 @@
     "name": "Next Greater Element II (Circular)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/next-greater-element-ii/",
-    "article_url": "https://takeuforward.org/data-structure/next-greater-element-ii/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/next-greater-element-ii-circular-array",
     "video_url": "https://www.youtube.com/watch?v=7PrncD7v9YQ",
     "notes": "Simulate 2*n iterations. Index using i % n. Populate answer array during the second virtual pass."
   },
@@ -1386,7 +1386,7 @@
     "name": "Sum of Subarray Minimums",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/sum-of-subarray-minimums/",
-    "article_url": "https://takeuforward.org/data-structure/sum-of-subarray-minimums/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/sum-of-subarray-minimums",
     "video_url": "https://www.youtube.com/watch?v=v0e8p964Z3U",
     "notes": "For each element, count left subarrays (PSEE) and right subarrays (NSE). Contribution = arr[i] * left * right."
   },
@@ -1399,7 +1399,7 @@
     "name": "Trapping Rain Water",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/trapping-rain-water/",
-    "article_url": "https://takeuforward.org/data-structure/trapping-rainwater/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/trapping-rain-water",
     "video_url": "https://www.youtube.com/watch?v=m18Hntz4EB8",
     "notes": "Two pointers left=0, right=n-1 with left_max, right_max. Move pointer at smaller max. O(1) space."
   },
@@ -1412,7 +1412,7 @@
     "name": "Remove K Digits to Minimize Number",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/remove-k-digits/",
-    "article_url": "https://takeuforward.org/data-structure/remove-k-digits/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/remove-k-digits",
     "video_url": "https://www.youtube.com/watch?v=jmbu6nfcGzE",
     "notes": "Pop digits from stack while k > 0 and stack.top() > curr_digit. Strip leading zeroes."
   },
@@ -1425,7 +1425,7 @@
     "name": "Online Stock Span",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/online-stock-span/",
-    "article_url": "https://takeuforward.org/data-structure/stock-span-problem/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/stock-span-problem",
     "video_url": "https://www.youtube.com/watch?v=eey656y_S2k",
     "notes": "Stack stores (price, span). Pop while stack.top.price <= price and accumulate spans. Push (price, span)."
   },
@@ -1438,7 +1438,7 @@
     "name": "Asteroid Collision",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/asteroid-collision/",
-    "article_url": "https://takeuforward.org/data-structure/asteroid-collision/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/asteroid-collision",
     "video_url": "https://www.youtube.com/watch?v=7pM27zWv4mU",
     "notes": "Collision only occurs when top is positive and current asteroid is negative. Pop, explode, or survive."
   },
@@ -1451,7 +1451,7 @@
     "name": "The Celebrity Problem",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/the-celebrity-problem/1",
-    "article_url": "https://takeuforward.org/data-structure/celebrity-problem/",
+    "article_url": "https://takeuforward.org/practice/dsa/celebrity-problem",
     "video_url": "https://www.youtube.com/watch?v=cEadsbTePC4",
     "notes": "Put all people on stack. Pop top 2: if A knows B, A is not celeb; else B is not. Verify final candidate."
   },
@@ -1464,7 +1464,7 @@
     "name": "Largest Rectangle in Histogram",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
-    "article_url": "https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/largest-rectangle-in-histogram",
     "video_url": "https://www.youtube.com/watch?v=X0X6G-eNwQ8",
     "notes": "When popping height h from stack, width = i - stack.top() - 1 (or i if stack empty). Max area = h * width."
   },
@@ -1477,7 +1477,7 @@
     "name": "Maximal Rectangle in 2D Binary Matrix",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/maximal-rectangle/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-rectangle-area-with-all-1s/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-the-row-with-maximum-1s-in-a-sorted-binary-matrix",
     "video_url": "https://www.youtube.com/watch?v=tOylVCugy9k",
     "notes": "Compute height histogram for each row (reset to 0 if cell is '0'). Run Largest Rectangle in Histogram on each row."
   },
@@ -1490,7 +1490,7 @@
     "name": "Sliding Window Maximum",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/sliding-window-maximum/",
-    "article_url": "https://takeuforward.org/data-structure/sliding-window-maximum/",
+    "article_url": "https://takeuforward.org/practice/dsa/sliding-window-maximum",
     "video_url": "https://www.youtube.com/watch?v=CZQGRp93K4k",
     "notes": "Maintain monotonically decreasing deque of indices. Pop indices outside window [i-k+1, i]. deque[0] is max."
   },
@@ -1503,7 +1503,7 @@
     "name": "Bit Manipulation Fundamentals (Check, Set, Clear, Toggle)",
     "difficulty": "Easy",
     "practice_url": "https://www.geeksforgeeks.org/problems/bit-manipulation-1666686020/1",
-    "article_url": "https://takeuforward.org/data-structure/check-if-the-i-th-bit-is-set-or-not/",
+    "article_url": "https://takeuforward.org/practice/dsa/check-if-the-i-th-bit-is-set-or-not",
     "video_url": "https://www.youtube.com/watch?v=nttpF8KWTu4",
     "notes": "Check: (n >> i) & 1. Set: n | (1 << i). Clear: n & ~(1 << i). Toggle: n ^ (1 << i)."
   },
@@ -1516,7 +1516,7 @@
     "name": "Number of 1 Bits & Power of Two Check",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/number-of-1-bits/",
-    "article_url": "https://takeuforward.org/data-structure/count-number-of-set-bits-in-an-integer/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/count-odd-digits-in-a-number",
     "video_url": "https://www.youtube.com/watch?v=nttpF8KWTu4",
     "notes": "n & (n - 1) removes the lowest set bit. Power of 2: n > 0 and (n & (n - 1)) == 0."
   },
@@ -1529,7 +1529,7 @@
     "name": "Divide Two Integers Without Multiplication or Division",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/divide-two-integers/",
-    "article_url": "https://takeuforward.org/data-structure/divide-two-integers-without-using-multiplication-division-and-mod-operator/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/divide-two-integers-without-multiplication-division-modulo",
     "video_url": "https://www.youtube.com/watch?v=pBD4B1XXcW4",
     "notes": "Subtract (divisor << shift) where shift is largest power of 2 such that divisor<<shift <= dividend."
   },
@@ -1542,7 +1542,7 @@
     "name": "Single Number II (Every element appears 3 times except one)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/single-number-ii/",
-    "article_url": "https://takeuforward.org/data-structure/find-the-element-that-appears-once-while-others-appear-thrice/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/single-number-ii",
     "video_url": "https://www.youtube.com/watch?v=5rtVTYAk99w",
     "notes": "Sum bits at each of 32 positions mod 3. Or state machine: ones = (ones ^ num) & ~twos."
   },
@@ -1555,7 +1555,7 @@
     "name": "Single Number III (Two unique elements)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/single-number-iii/",
-    "article_url": "https://takeuforward.org/data-structure/two-numbers-with-odd-occurrences/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/single-number-iii",
     "video_url": "https://www.youtube.com/watch?v=faoVORjd-T8",
     "notes": "XOR all = x ^ y. Find lowest set bit diff = (xy & -xy). Partition array into two buckets by diff bit."
   },
@@ -1568,7 +1568,7 @@
     "name": "Power Set (All Subsets using Bits)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/subsets/",
-    "article_url": "https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-all-anagrams-in-a-string",
     "video_url": "https://www.youtube.com/watch?v=b7AYbpM5YrE",
     "notes": "Loop mask from 0 to (1 << n) - 1. If (mask & (1 << j)), include nums[j] in subset."
   },
@@ -1581,7 +1581,7 @@
     "name": "Find GCD / HCF in O(log(min(a, b)))",
     "difficulty": "Easy",
     "practice_url": "https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1",
-    "article_url": "https://takeuforward.org/data-structure/find-gcd-of-two-numbers/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-the-missing-and-repeating-numbers-in-an-array",
     "video_url": "https://www.youtube.com/watch?v=1xNbjMdbjug",
     "notes": "Euclid: gcd(a, b) = gcd(b, a % b). Stop when b == 0. LCM = (a * b) // gcd(a, b)."
   },
@@ -1594,7 +1594,7 @@
     "name": "Count Primes (Sieve of Eratosthenes)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/count-primes/",
-    "article_url": "https://takeuforward.org/data-structure/sieve-of-eratosthenes-find-all-prime-numbers-up-to-n/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-the-missing-and-repeating-numbers-in-an-array",
     "video_url": "https://www.youtube.com/watch?v=g5Fuxn_AvSk",
     "notes": "Boolean array of size n. Mark multiples of i starting from i*i up to n. O(N log(log N))."
   },
@@ -1607,7 +1607,7 @@
     "name": "Pow(x, n) in O(log N)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/powx-n/",
-    "article_url": "https://takeuforward.org/data-structure/calculate-double-pow-x-n/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/fast-power-one-shot-binary-exponentiation-modular-exponentiation-and-powx-n",
     "video_url": "https://www.youtube.com/watch?v=l0YC3876qub",
     "notes": "If n < 0, x = 1/x, n = -n. While n > 0: if n % 2 == 1: ans *= x; x *= x; n //= 2."
   },
@@ -1620,7 +1620,7 @@
     "name": "Print All Divisors & Prime Factorization using Sieve (SPF)",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/prime-factorization-using-sieve/1",
-    "article_url": "https://takeuforward.org/data-structure/prime-factorisation-using-sieve/",
+    "article_url": "https://takeuforward.org/practice/dsa/count-of-prime-numbers-till-n",
     "video_url": "https://www.youtube.com/watch?v=gloSgiNxk-E",
     "notes": "Compute Smallest Prime Factor spf[x]. Factorize any number in O(log N) by dividing n by spf[n]."
   },
@@ -1633,7 +1633,7 @@
     "name": "Single Number III & Bitmask Benchmark",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/single-number-iii/",
-    "article_url": "https://takeuforward.org/data-structure/two-numbers-with-odd-occurrences/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/single-number-iii",
     "video_url": "https://www.youtube.com/watch?v=faoVORjd-T8",
     "notes": "Benchmark test: Partition array into two buckets based on lowest set bit diff."
   },
@@ -1646,7 +1646,7 @@
     "name": "Phase 1-4 Consolidation: Trapping Rainwater & Monotonic Stack",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/trapping-rain-water/",
-    "article_url": "https://takeuforward.org/data-structure/trapping-rainwater/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/trapping-rain-water",
     "video_url": "https://www.youtube.com/watch?v=m18Hntz4EB8",
     "notes": "Mid-Point Milestone: Review Monotonic Stack foundations and solve Trapping Rainwater & Histogram from scratch."
   },
@@ -1659,7 +1659,7 @@
     "name": "Largest Rectangle in Histogram Benchmark",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
-    "article_url": "https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/largest-rectangle-in-histogram",
     "video_url": "https://www.youtube.com/watch?v=X0X6G-eNwQ8",
     "notes": "Benchmark test: Re-code histogram in under 15 minutes without reference."
   },
@@ -1672,7 +1672,7 @@
     "name": "Sliding Window Maximum Benchmark",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/sliding-window-maximum/",
-    "article_url": "https://takeuforward.org/data-structure/sliding-window-maximum/",
+    "article_url": "https://takeuforward.org/practice/dsa/sliding-window-maximum",
     "video_url": "https://www.youtube.com/watch?v=CZQGRp93K4k",
     "notes": "Benchmark test: Implement monotonic deque with window index expiration."
   },
@@ -1685,7 +1685,7 @@
     "name": "Generate Parentheses",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/generate-parentheses/",
-    "article_url": "https://takeuforward.org/data-structure/generate-all-parenthesis/",
+    "article_url": "https://takeuforward.org/practice/dsa/generate-parentheses",
     "video_url": "https://www.youtube.com/watch?v=eyCj_8zd3Sg",
     "notes": "Backtrack: add '(' if open < n; add ')' if close < open. Stop when len == 2*n."
   },
@@ -1698,7 +1698,7 @@
     "name": "Combination Sum I (Unlimited reuse)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/combination-sum/",
-    "article_url": "https://takeuforward.org/data-structure/combination-sum-1/",
+    "article_url": "https://takeuforward.org/practice/dsa/combination-sum",
     "video_url": "https://www.youtube.com/watch?v=OyZNWAMyt9w",
     "notes": "Pick: subtract candidates[i] and call f(i, target - val). Not pick: call f(i+1, target). Base: target == 0."
   },
@@ -1711,7 +1711,7 @@
     "name": "Combination Sum II (Each number used once, unique combinations)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/combination-sum-ii/",
-    "article_url": "https://takeuforward.org/data-structure/combination-sum-ii-find-all-unique-combinations/",
+    "article_url": "https://takeuforward.org/practice/dsa/combination-sum-ii",
     "video_url": "https://www.youtube.com/watch?v=G1fRTGRxXU8",
     "notes": "Sort first. In loop: if j > start and arr[j] == arr[j-1]: continue. Prevents duplicate combinations."
   },
@@ -1724,7 +1724,7 @@
     "name": "Subsets II (Unique Subsets with Duplicate Elements)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/subsets-ii/",
-    "article_url": "https://takeuforward.org/data-structure/subset-ii-print-all-the-unique-subsets/",
+    "article_url": "https://takeuforward.org/practice/dsa/subsets-ii",
     "video_url": "https://www.youtube.com/watch?v=RIn3gOkbhQE",
     "notes": "Sort array. At each level of recursion loop from idx to n: if i > idx and nums[i] == nums[i-1] skip."
   },
@@ -1737,7 +1737,7 @@
     "name": "Palindrome Partitioning",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/palindrome-partitioning/",
-    "article_url": "https://takeuforward.org/data-structure/palindrome-partitioning/",
+    "article_url": "https://takeuforward.org/practice/dsa/palindrome-partitioning",
     "video_url": "https://www.youtube.com/watch?v=WBgsABoClE0",
     "notes": "Partition string at index i. If s[start:i+1] is palindrome, add to path and recurse on i+1."
   },
@@ -1750,7 +1750,7 @@
     "name": "Word Search in 2D Board",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/word-search/",
-    "article_url": "https://takeuforward.org/data-structure/word-search-leetcode/",
+    "article_url": "https://takeuforward.org/practice/dsa/word-search",
     "video_url": "https://www.youtube.com/watch?v=m9TrOL1ETxI",
     "notes": "Check bounds & char match. Mark visited: board[r][c] = '#'. Explore 4 neighbors. Restore char on return."
   },
@@ -1763,7 +1763,7 @@
     "name": "Rat in a Maze Problem",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
-    "article_url": "https://takeuforward.org/data-structure/rat-in-a-maze/",
+    "article_url": "https://takeuforward.org/practice/dsa/rat-in-a-maze",
     "video_url": "https://www.youtube.com/watch?v=bLGZhJlt4y0",
     "notes": "Explore 'D', 'L', 'R', 'U' in alphabetical order. Mark visited matrix to prevent cycles."
   },
@@ -1776,7 +1776,7 @@
     "name": "M-Coloring Problem",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1",
-    "article_url": "https://takeuforward.org/data-structure/m-coloring-problem/",
+    "article_url": "https://takeuforward.org/practice/dsa/m-coloring-problem",
     "video_url": "https://www.youtube.com/watch?v=wuVwUK25Rfc",
     "notes": "Assign colors 1 to M to node. Check if any adjacent node has same color before recursing."
   },
@@ -1789,7 +1789,7 @@
     "name": "Permutations (All orderings of array)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/permutations/",
-    "article_url": "https://takeuforward.org/data-structure/print-all-permutations-of-a-string-array/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-all-anagrams-in-a-string",
     "video_url": "https://www.youtube.com/watch?v=f2ic2Rsc9pU",
     "notes": "In-place swapping: swap nums[idx] with nums[i], recurse idx+1, backtrack swap back."
   },
@@ -1802,7 +1802,7 @@
     "name": "N-Queens",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/n-queens/",
-    "article_url": "https://takeuforward.org/data-structure/n-queen-problem-return-all-distinct-solutions-to-the-n-queens-puzzle/",
+    "article_url": "https://takeuforward.org/practice/dsa/n-queen",
     "video_url": "https://www.youtube.com/watch?v=i05Ju7AftcM",
     "notes": "Row by row. O(1) safety check using boolean arrays: cols[c], diag1[r+c], diag2[r-c+n-1]."
   },
@@ -1815,7 +1815,7 @@
     "name": "Sudoku Solver",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/sudoku-solver/",
-    "article_url": "https://takeuforward.org/data-structure/sudoku-solver/",
+    "article_url": "https://takeuforward.org/practice/dsa/sudoko-solver",
     "video_url": "https://www.youtube.com/watch?v=FWAIf_EVUKE",
     "notes": "Find empty cell '.'. Try digits '1'-'9'. Check row, col, and 3x3 box (3*(r//3) + i//3, 3*(c//3) + i%3). Return True on finish."
   },
@@ -1828,7 +1828,7 @@
     "name": "Maximum Depth of Binary Tree",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-sum-bst-in-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=eD3tm2FD6Es",
     "notes": "1 + max(maxDepth(root.left), maxDepth(root.right)). Base case: root is None -> 0."
   },
@@ -1841,7 +1841,7 @@
     "name": "Check if Binary Tree is Balanced",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/balanced-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/check-if-a-binary-tree-is-height-balanced",
     "video_url": "https://www.youtube.com/watch?v=Yt50JfMY84A",
     "notes": "Return -1 from height function if subtree is unbalanced (|lh - rh| > 1). Prevents O(N^2) double calculation."
   },
@@ -1854,7 +1854,7 @@
     "name": "Diameter of Binary Tree",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/diameter-of-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/diameter-of-a-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=Rezetez59X8",
     "notes": "Update global diameter = max(diameter, lh + rh) at every node, while returning 1 + max(lh, rh)."
   },
@@ -1867,7 +1867,7 @@
     "name": "Binary Tree Level Order Traversal (BFS)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-    "article_url": "https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/binary-tree-level-order-traversal",
     "video_url": "https://www.youtube.com/watch?v=EoAsWbO7sqg",
     "notes": "Queue storing nodes. For each level, size = q.size(). Pop size elements and push children."
   },
@@ -1880,7 +1880,7 @@
     "name": "Binary Tree Zigzag Level Order Traversal",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
-    "article_url": "https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/binary-tree-level-order-traversal",
     "video_url": "https://www.youtube.com/watch?v=3OXWEdlIGK4",
     "notes": "Maintain leftToRight boolean flag. Insert values into level array from start or end based on flag."
   },
@@ -1893,7 +1893,7 @@
     "name": "Boundary Traversal of Binary Tree",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1",
-    "article_url": "https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/boundary-traversal-of-a-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=0ca1na3mMtw",
     "notes": "1. Left boundary (excluding leaves). 2. All leaf nodes (inorder DFS). 3. Right boundary in reverse."
   },
@@ -1906,7 +1906,7 @@
     "name": "Binary Tree Maximum Path Sum",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/binary-tree-maximum-path-sum",
     "video_url": "https://www.youtube.com/watch?v=WszrfSwMz58",
     "notes": "left_gain = max(0, maxPath(node.left)). Global max = max(max_sum, node.val + left_gain + right_gain)."
   },
@@ -1919,7 +1919,7 @@
     "name": "Vertical Order Traversal of a Binary Tree",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/vertical-order-traversal-of-a-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=q_a6lPBcG18",
     "notes": "Track (x, y, val) coordinate for each node. Group by column x, then sort by row y, then value."
   },
@@ -1932,7 +1932,7 @@
     "name": "Symmetric Tree (Mirror of Itself)",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/symmetric-tree/",
-    "article_url": "https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/check-if-a-binary-tree-is-height-balanced",
     "video_url": "https://www.youtube.com/watch?v=nKggNAiEpBE",
     "notes": "Helper isMirror(t1, t2): check t1.val == t2.val and isMirror(t1.left, t2.right) and isMirror(t1.right, t2.left)."
   },
@@ -1945,7 +1945,7 @@
     "name": "Top View & Bottom View of Binary Tree",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1",
-    "article_url": "https://takeuforward.org/data-structure/top-view-of-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/top-view-of-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=Et9OCDNvRd8",
     "notes": "BFS with line coordinate x. Top view: store line in map only if not already seen. Bottom view: always overwrite!"
   },
@@ -1958,7 +1958,7 @@
     "name": "Right / Left View of Binary Tree",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
-    "article_url": "https://takeuforward.org/data-structure/right-left-view-of-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/left-and-right-views-of-a-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=KV4mRzTjlAk",
     "notes": "Reverse preorder traversal (root, right, left). If depth == len(res), append node.val."
   },
@@ -1971,7 +1971,7 @@
     "name": "Lowest Common Ancestor (LCA) in Binary Tree",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/lowest-common-ancestor-in-a-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=_-QHfMDde90",
     "notes": "If root is None or root == p or root == q: return root. If both left and right return non-null, root is LCA!"
   },
@@ -1984,7 +1984,7 @@
     "name": "Maximum Width of Binary Tree",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-sum-bst-in-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=ZbybYvcVLks",
     "notes": "Assign index to each node: left child = 2*idx + 1, right child = 2*idx + 2. Subtract min_idx per level."
   },
@@ -1997,7 +1997,7 @@
     "name": "All Nodes Distance K in Binary Tree",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/print-all-the-nodes-at-a-distance-of-k-in-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/nodes-distance-k-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=i9ORlEy6EsI",
     "notes": "Map each node to its parent pointer via BFS. Run second BFS starting from target node up to distance K."
   },
@@ -2010,7 +2010,7 @@
     "name": "Construct Binary Tree from Preorder & Inorder",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-    "article_url": "https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/construct-a-binary-tree-from-preorder-and-inorder",
     "video_url": "https://www.youtube.com/watch?v=aZNaLr96428",
     "notes": "Preorder gives root. Find root in Inorder map to partition into left and right subtrees. O(N)."
   },
@@ -2023,7 +2023,7 @@
     "name": "Count Complete Tree Nodes in O((log N)^2)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/count-complete-tree-nodes/",
-    "article_url": "https://takeuforward.org/data-structure/count-number-of-nodes-in-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/count-nodes-in-a-complete-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=u-yWemKGWO0",
     "notes": "Compare left height and right height. If equal: (1 << h) - 1. If not, 1 + count(left) + count(right)."
   },
@@ -2036,7 +2036,7 @@
     "name": "Flatten Binary Tree to Linked List",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
-    "article_url": "https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/flatten-binary-tree-to-linked-list",
     "video_url": "https://www.youtube.com/watch?v=sWf7k1x9XR4",
     "notes": "Morris traversal or reverse postorder (right, left, root) keeping prev pointer."
   },
@@ -2049,7 +2049,7 @@
     "name": "Serialize and Deserialize Binary Tree",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/serialize-and-deserialize-a-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=-YbXySKJsX8",
     "notes": "Serialize: BFS string with commas and '#' for nulls. Deserialize: split string, queue up nodes, assign left/right."
   },
@@ -2062,7 +2062,7 @@
     "name": "Preorder, Inorder, and Postorder in One Traversal",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/preorder-traversal/1",
-    "article_url": "https://takeuforward.org/data-structure/preorder-inorder-postorder-traversal-in-one-traversal/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/construct-a-bst-from-preorder-traversal",
     "video_url": "https://www.youtube.com/watch?v=ySp2epYvgTE",
     "notes": "Stack of pair (node, state 1/2/3). 1: Preorder, push left. 2: Inorder, push right. 3: Postorder, pop."
   },
@@ -2075,7 +2075,7 @@
     "name": "Week 5 Mastery Check: LCA, Tree Max Path Sum & Morris Traversal",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/binary-tree-maximum-path-sum",
     "video_url": "https://www.youtube.com/watch?v=WszrfSwMz58",
     "notes": "Learn Morris Inorder Traversal (threaded binary tree, O(1) space). Review LCA and distance K logic."
   },
@@ -2088,7 +2088,7 @@
     "name": "Morris Traversal for Inorder & Preorder (O(1) Space)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
-    "article_url": "https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/morris-inorder-traversal",
     "video_url": "https://www.youtube.com/watch?v=80Zug6D1_Uk",
     "notes": "Find rightmost node of left subtree. Create thread to curr. When revisiting, remove thread."
   },
@@ -2101,7 +2101,7 @@
     "name": "Search & Insert in BST",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
-    "article_url": "https://takeuforward.org/data-structure/search-in-a-binary-search-tree-bst/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/search-in-a-binary-search-tree",
     "video_url": "https://www.youtube.com/watch?v=KcNt6v_56cc",
     "notes": "If target < node.val go left; if target > node.val go right. O(H) time complexity."
   },
@@ -2114,7 +2114,7 @@
     "name": "Delete Node in a BST",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/delete-node-in-a-bst/",
-    "article_url": "https://takeuforward.org/data-structure/delete-a-node-in-binary-search-tree-bst/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/delete-node-in-a-bst",
     "video_url": "https://www.youtube.com/watch?v=kouxiP_DZ5w",
     "notes": "Case 1: Leaf. Case 2: 1 child. Case 3: 2 children -> replace with inorder successor (min of right subtree)."
   },
@@ -2127,7 +2127,7 @@
     "name": "K-th Smallest Element in a BST",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-    "article_url": "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree-bst/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/largest-bst-in-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=9TJYWh044Go",
     "notes": "Inorder traversal of BST yields sorted values in ascending order! Decrement k at each visit; return when k==0."
   },
@@ -2140,7 +2140,7 @@
     "name": "Floor and Ceil in a Binary Search Tree",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/floor-in-bst/1",
-    "article_url": "https://takeuforward.org/data-structure/floor-in-a-binary-search-tree-bst/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/largest-bst-in-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=xm_W1ub-K-w",
     "notes": "Ceil: if val >= key, ceil = val and move left. Floor: if val <= key, floor = val and move right."
   },
@@ -2153,7 +2153,7 @@
     "name": "Validate Binary Search Tree",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/validate-binary-search-tree/",
-    "article_url": "https://takeuforward.org/data-structure/check-if-a-tree-is-a-bst-or-bt/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/validate-binary-search-tree",
     "video_url": "https://www.youtube.com/watch?v=f-sj7I5oXEI",
     "notes": "Pass valid range (min_val, max_val). Check min_val < node.val < max_val. Recurse left and right."
   },
@@ -2166,7 +2166,7 @@
     "name": "Lowest Common Ancestor of a BST",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
-    "article_url": "https://takeuforward.org/data-structure/lca-in-binary-search-tree-bst/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/lowest-common-ancestor-of-a-binary-search-tree",
     "video_url": "https://www.youtube.com/watch?v=cX_kPV_hZ6E",
     "notes": "If both p and q < root.val, go left. If both > root.val, go right. Otherwise, root is the split point (LCA)!"
   },
@@ -2179,7 +2179,7 @@
     "name": "Recover Binary Search Tree (Two Nodes Swapped)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/recover-binary-search-tree/",
-    "article_url": "https://takeuforward.org/data-structure/recover-bst-correct-bst-with-two-nodes-swapped/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/recover-binary-search-tree",
     "video_url": "https://www.youtube.com/watch?v=ZWGW7FminDM",
     "notes": "Inorder traversal. First violation: prev > curr (first = prev, middle = curr). Second: prev > curr (last = curr). Swap."
   },
@@ -2192,7 +2192,7 @@
     "name": "Binary Search Tree Iterator",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/binary-search-tree-iterator/",
-    "article_url": "https://takeuforward.org/data-structure/bst-iterator-next-and-hasnext-o1-time-and-oh-memory/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/binary-search-tree-iterator",
     "video_url": "https://www.youtube.com/watch?v=D2jMcmxU4bs",
     "notes": "Stack pushAllLeft(root). next() pops node and pushes all left descendants of node.right. Amortized O(1)."
   },
@@ -2205,7 +2205,7 @@
     "name": "Two Sum IV - Input is a BST",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
-    "article_url": "https://takeuforward.org/data-structure/two-sum-in-bst-check-if-there-exists-a-pair-with-given-sum/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/two-sum-in-bst",
     "video_url": "https://www.youtube.com/watch?v=ssL3sHwPeb4",
     "notes": "Use two BST Iterators (one forward for ascending, one reverse for descending). Two pointer scan in O(H) space!"
   },
@@ -2218,7 +2218,7 @@
     "name": "Largest BST in Binary Tree",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/largest-bst/1",
-    "article_url": "https://takeuforward.org/data-structure/maximum-sum-bst-in-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-sum-bst-in-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=X0oXMdtUDwo",
     "notes": "Postorder returns (is_bst, size, min_val, max_val). Check left.max < node.val < right.min."
   },
@@ -2231,7 +2231,7 @@
     "name": "BFS & DFS Traversal of Graph",
     "difficulty": "Easy",
     "practice_url": "https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
-    "article_url": "https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/binary-tree-level-order-traversal",
     "video_url": "https://www.youtube.com/watch?v=-tgVpUgsQ5A",
     "notes": "BFS uses Queue + visited array. DFS uses Recursion / Stack + visited array. Time: O(V + 2E)."
   },
@@ -2244,7 +2244,7 @@
     "name": "Flood Fill Algorithm",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/flood-fill/",
-    "article_url": "https://takeuforward.org/data-structure/flood-fill-algorithm/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/flood-fill-algorithm",
     "video_url": "https://www.youtube.com/watch?v=C-2_uSRli8o",
     "notes": "If image[sr][sc] == newColor return. Recurse in 4 directions updating pixel color."
   },
@@ -2257,7 +2257,7 @@
     "name": "Number of Provinces / Connected Components",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/number-of-provinces/",
-    "article_url": "https://takeuforward.org/data-structure/number-of-provinces/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/number-of-provinces",
     "video_url": "https://www.youtube.com/watch?v=ACzkVtewUYA",
     "notes": "Count number of times BFS/DFS is initiated from an unvisited node."
   },
@@ -2270,7 +2270,7 @@
     "name": "Rotting Oranges",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/rotting-oranges/",
-    "article_url": "https://takeuforward.org/data-structure/rotten-oranges/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/rotting-oranges",
     "video_url": "https://www.youtube.com/watch?v=yf3oUhkvqA0",
     "notes": "Push all initially rotten oranges into Queue simultaneously (multi-source BFS). Count minutes. Check fresh == 0."
   },
@@ -2283,7 +2283,7 @@
     "name": "Detect Cycle in Undirected Graph (BFS & DFS)",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
-    "article_url": "https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/detect-a-cycle-in-an-undirected-graph",
     "video_url": "https://www.youtube.com/watch?v=BPlrALf1LDU",
     "notes": "Store (node, parent) in queue/call stack. If adjacent node is visited and != parent, cycle detected!"
   },
@@ -2296,7 +2296,7 @@
     "name": "0/1 Matrix (Distance to Nearest 0)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/01-matrix/",
-    "article_url": "https://takeuforward.org/data-structure/distance-of-nearest-cell-having-1/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/distance-of-the-nearest-cell-having-1-in-a-binary-matrix",
     "video_url": "https://www.youtube.com/watch?v=edXdVwkYHF8",
     "notes": "Multi-source BFS starting with all 0 cells pushed into queue with dist=0."
   },
@@ -2309,7 +2309,7 @@
     "name": "Surrounded Regions (Capture O's surrounded by X's)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/surrounded-regions/",
-    "article_url": "https://takeuforward.org/data-structure/surrounded-regions-replace-os-with-xs/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/surrounded-regions",
     "video_url": "https://www.youtube.com/watch?v=BtdgAys4yMk",
     "notes": "Start DFS from boundary 'O's and mark them as un-capturable. Then flip remaining 'O's to 'X'."
   },
@@ -2322,7 +2322,7 @@
     "name": "Is Graph Bipartite?",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/is-graph-bipartite/",
-    "article_url": "https://takeuforward.org/data-structure/bipartite-graph-dfs-implementation/",
+    "article_url": "https://takeuforward.org/practice/dsa/bipartite-graph",
     "video_url": "https://www.youtube.com/watch?v=-vu34sct1g8",
     "notes": "Color array initialized to -1. Adjacent nodes must have opposite color (0 and 1). Odd-length cycle -> not bipartite."
   },
@@ -2335,7 +2335,7 @@
     "name": "Course Schedule I & II",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/course-schedule/",
-    "article_url": "https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/course-schedule-ii",
     "video_url": "https://www.youtube.com/watch?v=WAOfKpxYHR8",
     "notes": "Calculate in-degrees. Push 0 in-degree nodes into queue. Decrement neighbors. If count == numCourses -> DAG valid."
   },
@@ -2348,7 +2348,7 @@
     "name": "Detect Cycle in a Directed Graph (DFS Path Visited)",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
-    "article_url": "https://takeuforward.org/data-structure/detect-cycle-in-a-directed-graph-using-dfs-g-19/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/detect-a-cycle-in-a-directed-graph",
     "video_url": "https://www.youtube.com/watch?v=9twcmtQj4DU",
     "notes": "Two boolean arrays: visited[] and pathVisited[]. If neighbor is currently in pathVisited, cycle exists."
   },
@@ -2361,7 +2361,7 @@
     "name": "Find Eventual Safe States",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/find-eventual-safe-states/",
-    "article_url": "https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-eventual-safe-states",
     "video_url": "https://www.youtube.com/watch?v=2gtg3VsDGyc",
     "notes": "Reverse all edges. Terminal nodes now have in-degree 0! Run Kahn's BFS topological sort."
   },
@@ -2374,7 +2374,7 @@
     "name": "Alien Dictionary",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
-    "article_url": "https://takeuforward.org/data-structure/alien-dictionary-topological-sort/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/alien-dictionary",
     "video_url": "https://www.youtube.com/watch?v=U3N_je7tWAs",
     "notes": "Compare adjacent words to find first differing char u -> v (directed edge). Run Kahn's topological sort."
   },
@@ -2387,7 +2387,7 @@
     "name": "Word Ladder I (Shortest Transformation)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/word-ladder/",
-    "article_url": "https://takeuforward.org/data-structure/word-ladder-i-g-29/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/word-ladder",
     "video_url": "https://www.youtube.com/watch?v=tRPda0rcf8E",
     "notes": "Queue storing (word, steps). Try replacing each character with 'a'-'z'. Remove word from HashSet once visited."
   },
@@ -2400,7 +2400,7 @@
     "name": "Dijkstra's Shortest Path Algorithm",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
-    "article_url": "https://takeuforward.org/data-structure/dijkstras-algorithm-using-priority-queue-g-32/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/dijkstras-algorithm",
     "video_url": "https://www.youtube.com/watch?v=V6H1qAeB-l4",
     "notes": "Min-heap priority queue storing (dist, node). If dist + weight < distTo[neighbor]: relax edge and push."
   },
@@ -2413,7 +2413,7 @@
     "name": "Shortest Path in Binary Matrix & Path with Minimum Effort",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/path-with-minimum-effort/",
-    "article_url": "https://takeuforward.org/data-structure/g-37-path-with-minimum-effort/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/path-with-minimum-effort",
     "video_url": "https://www.youtube.com/watch?v=0ytpZdtODhI",
     "notes": "Dijkstra min-heap where cost is max(|h1 - h2|) along the path. Relax if current path effort is lower."
   },
@@ -2426,7 +2426,7 @@
     "name": "Cheapest Flights Within K Stops",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
-    "article_url": "https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/cheapest-flights-within-k-stops",
     "video_url": "https://www.youtube.com/watch?v=9XybHVqTHcQ",
     "notes": "Queue prioritized by number of stops! (stops, node, cost). If stops > k, continue without exploring."
   },
@@ -2439,7 +2439,7 @@
     "name": "Bellman-Ford & Floyd-Warshall Algorithms",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
-    "article_url": "https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/bellman-ford-algorithm",
     "video_url": "https://www.youtube.com/watch?v=0vVofAhAYjc",
     "notes": "Bellman-Ford relaxes all edges V-1 times (detects negative cycle). Floyd-Warshall computes all-pairs via via-node loop."
   },
@@ -2452,7 +2452,7 @@
     "name": "Number of Ways to Arrive at Destination",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
-    "article_url": "https://takeuforward.org/data-structure/g-40-number-of-ways-to-arrive-at-destination/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/number-of-ways-to-arrive-at-destination",
     "video_url": "https://www.youtube.com/watch?v=_-0mx0SmYxA",
     "notes": "Maintain ways[v]. If new shorter dist found: dist[v] = new_dist, ways[v] = ways[u]. If equal: ways[v] = (ways[v] + ways[u]) % MOD."
   },
@@ -2465,7 +2465,7 @@
     "name": "Minimum Multiplications to Reach End",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1",
-    "article_url": "https://takeuforward.org/data-structure/g-39-minimum-multiplications-to-reach-end/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-multiplications-to-reach-end",
     "video_url": "https://www.youtube.com/watch?v=_BvEJ375vN8",
     "notes": "Queue storing (steps, num). num = (num * factor) % 100000. Dist array of size 100000."
   },
@@ -2478,7 +2478,7 @@
     "name": "City With Smallest Number of Neighbors at Threshold Distance",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
-    "article_url": "https://takeuforward.org/data-structure/find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance-g-43/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/find-city-smallest-number-neighbors-threshold-distance",
     "video_url": "https://www.youtube.com/watch?v=PwMVNSJ5SLI",
     "notes": "Run Floyd-Warshall to compute all-pairs shortest distances. Count reachable cities <= threshold."
   },
@@ -2491,7 +2491,7 @@
     "name": "Disjoint Set Union (DSU) Implementation & Kruskal's MST",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1",
-    "article_url": "https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/disjoint-set-union",
     "video_url": "https://www.youtube.com/watch?v=aBxjDBC4LEg",
     "notes": "findParent(x) with path compression: parent[x] = findParent(parent[x]). unionBySize(u, v). Kruskal sorts edges."
   },
@@ -2504,7 +2504,7 @@
     "name": "Number of Operations to Make Network Connected",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
-    "article_url": "https://takeuforward.org/data-structure/g-49-number-of-operations-to-make-network-connected/",
+    "article_url": "https://takeuforward.org/practice/dsa/number-of-operations-to-make-network-connected",
     "video_url": "https://www.youtube.com/watch?v=FYrl7Iz9_ZU",
     "notes": "If edges < n-1, impossible. Count redundant edges (both in same component). Answer is (components - 1)."
   },
@@ -2517,7 +2517,7 @@
     "name": "Accounts Merge",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/accounts-merge/",
-    "article_url": "https://takeuforward.org/data-structure/g-50-accounts-merge/",
+    "article_url": "https://takeuforward.org/practice/dsa/accounts-merge",
     "video_url": "https://www.youtube.com/watch?v=FMwpt_aQOGw",
     "notes": "Map each email to account index i. If email already seen, union(i, email_to_node[email]). Group by ultimate parent."
   },
@@ -2530,7 +2530,7 @@
     "name": "Most Stones Removed with Same Row or Column",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
-    "article_url": "https://takeuforward.org/data-structure/most-stones-removed-with-same-row-or-column-dsu-g-53/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/most-stones-removed-same-row-column",
     "video_url": "https://www.youtube.com/watch?v=OwMNX8SPavM",
     "notes": "Union row index r with (col index c + offset). Max removed = total_stones - connected_components."
   },
@@ -2543,7 +2543,7 @@
     "name": "Critical Connections in a Network (Bridges in Graph)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/critical-connections-in-a-network/",
-    "article_url": "https://takeuforward.org/data-structure/bridges-in-graph-using-tarjans-algorithm-g-55/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/bridges-in-graph-tarjan-algorithm",
     "video_url": "https://www.youtube.com/watch?v=qrAub5z84A4",
     "notes": "Time of insertion tin[] and lowest reachable low[]. If low[neighbor] > tin[node], edge (node, neighbor) is a bridge."
   },
@@ -2556,7 +2556,7 @@
     "name": "Making A Large Island (Flip at most one 0)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/making-a-large-island/",
-    "article_url": "https://takeuforward.org/data-structure/g-52-making-a-large-island-dsu/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/making-a-large-island",
     "video_url": "https://www.youtube.com/watch?v=lgiz0UNAFZg",
     "notes": "Build DSU on 1s. Then for each 0 cell, sum sizes of unique neighbor island parents + 1. Find global max."
   },
@@ -2569,7 +2569,7 @@
     "name": "Swim in Rising Water",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/swim-in-rising-water/",
-    "article_url": "https://takeuforward.org/data-structure/path-with-minimum-effort/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/path-with-minimum-effort",
     "video_url": "https://www.youtube.com/watch?v=0ytpZdtODhI",
     "notes": "Dijkstra min-heap where edge cost is max(t, grid[nr][nc]). Find minimum time to reach bottom-right."
   },
@@ -2582,7 +2582,7 @@
     "name": "Strongly Connected Components (Kosaraju's)",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1",
-    "article_url": "https://takeuforward.org/data-structure/strongly-connected-components-kosarajus-algo-g-54/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/kosarajus-algorithm",
     "video_url": "https://www.youtube.com/watch?v=R6uoSjZ2imo",
     "notes": "Step 1: Sort by finishing time (DFS push to stack). Step 2: Transpose graph. Step 3: DFS pop stack."
   },
@@ -2595,7 +2595,7 @@
     "name": "Articulation Point in Graph",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/articulation-point-1/1",
-    "article_url": "https://takeuforward.org/data-structure/articulation-point-in-graph-g-56/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/articulation-points-in-graph",
     "video_url": "https://www.youtube.com/watch?v=j1QDfU21iZk",
     "notes": "Root node is articulation point if children > 1. Non-root is articulation point if low[child] >= tin[node]."
   },
@@ -2608,7 +2608,7 @@
     "name": "Climbing Stairs & Frog Jump",
     "difficulty": "Easy",
     "practice_url": "https://leetcode.com/problems/climbing-stairs/",
-    "article_url": "https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/climbing-stairs",
     "video_url": "https://www.youtube.com/watch?v=mLfjzJsN8us",
     "notes": "dp[i] = dp[i-1] + dp[i-2]. Frog jump: min(dp[i-1] + abs(h[i]-h[i-1]), dp[i-2] + abs(h[i]-h[i-2])). Space optimize to 2 vars."
   },
@@ -2621,7 +2621,7 @@
     "name": "House Robber I & House Robber II",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/house-robber/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/house-robber",
     "video_url": "https://www.youtube.com/watch?v=GrMBrJNk_NY",
     "notes": "rob = max(nums[i] + prev2, prev1). House Robber II (circular): max(rob(nums[:-1]), rob(nums[1:]))."
   },
@@ -2634,7 +2634,7 @@
     "name": "Ninja's Training",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/geeks-training/1",
-    "article_url": "https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/ninjas-training",
     "video_url": "https://www.youtube.com/watch?v=AE39gJSlfio",
     "notes": "dp[day][last_task] = max over task != last_task (points[day][task] + dp[day-1][task]). Space optimize to size 4 array."
   },
@@ -2647,7 +2647,7 @@
     "name": "Grid Unique Paths I & II (With Obstacles)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/unique-paths/",
-    "article_url": "https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/grid-unique-paths",
     "video_url": "https://www.youtube.com/watch?v=sdE0A2Oxofw",
     "notes": "dp[i][j] = dp[i-1][j] + dp[i][j-1]. If obstacle at cell, dp[i][j] = 0. Optimize space to 1D row array."
   },
@@ -2660,7 +2660,7 @@
     "name": "Minimum Path Sum in Grid & Triangle",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/minimum-path-sum/",
-    "article_url": "https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-path-sum",
     "video_url": "https://www.youtube.com/watch?v=_rgTlyky1uQ",
     "notes": "dp[i][j] = grid[i][j] + min(dp[i-1][j], dp[i][j-1]). Base cases: top and left borders."
   },
@@ -2673,7 +2673,7 @@
     "name": "Cherry Pickup II (Chocolates Pickup)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/cherry-pickup-ii/",
-    "article_url": "https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/",
+    "article_url": "https://takeuforward.org/practice/dsa/cherry-pickup-ii",
     "video_url": "https://www.youtube.com/watch?v=QGfn7UQ60XY",
     "notes": "Both robots move to row i+1 simultaneously. State: dp[r][c1][c2]. Try all 9 combinations of (dc1, dc2) in {-1, 0, 1}."
   },
@@ -2686,7 +2686,7 @@
     "name": "Subset Sum Equal to Target & Partition Equal Subset Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/partition-equal-subset-sum/",
-    "article_url": "https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/",
+    "article_url": "https://takeuforward.org/practice/dsa/partition-equal-subset-sum",
     "video_url": "https://www.youtube.com/watch?v=fWX9xDmIzRI",
     "notes": "Equal partition = check if subset exists with target = total_sum // 2. dp[target] = dp[target] or dp[target - num]."
   },
@@ -2699,7 +2699,7 @@
     "name": "0/1 Knapsack Problem",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
-    "article_url": "https://takeuforward.org/data-structure/0-1-knapsack-dp-19/",
+    "article_url": "https://takeuforward.org/practice/dsa/0-and-1-knapsack",
     "video_url": "https://www.youtube.com/watch?v=GqOmJHQvEBw",
     "notes": "dp[w] = max(dp[w], val[i] + dp[w - wt[i]]). Traverse weights backwards from W down to wt[i] for 1D space!"
   },
@@ -2712,7 +2712,7 @@
     "name": "Partition Set into Two Subsets with Min Absolute Sum Difference",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
-    "article_url": "https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/count-subsets-with-sum-k",
     "video_url": "https://www.youtube.com/watch?v=GS_OqZb2CWc",
     "notes": "Last row of subset sum DP table gives all reachable subset sums. Find s1 minimizing abs(total - 2*s1)."
   },
@@ -2725,7 +2725,7 @@
     "name": "Coin Change I (Minimum Coins to Make Sum)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/coin-change/",
-    "article_url": "https://takeuforward.org/data-structure/minimum-coins-dp-20/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-number-of-coins",
     "video_url": "https://www.youtube.com/watch?v=myPeWb3Y68A",
     "notes": "dp[a] = min(dp[a], 1 + dp[a - c]). Initialize with infinity. Traverse forward since coins can be reused unlimited times."
   },
@@ -2738,7 +2738,7 @@
     "name": "Coin Change II & Target Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/coin-change-ii/",
-    "article_url": "https://takeuforward.org/data-structure/coin-change-2-dp-22/",
+    "article_url": "https://takeuforward.org/practice/dsa/coin-change-ii",
     "video_url": "https://www.youtube.com/watch?v=HgyouUiC1EE",
     "notes": "Outer loop over coins, inner loop over amounts: dp[a] += dp[a - coin]. Avoids permutations, counts combinations."
   },
@@ -2751,7 +2751,7 @@
     "name": "Rod Cutting Problem",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
-    "article_url": "https://takeuforward.org/data-structure/rod-cutting-problem-dp-24/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/rod-cutting-problem",
     "video_url": "https://www.youtube.com/watch?v=mO8XcPBoHQQ",
     "notes": "dp[len] = max(dp[len], price[i] + dp[len - (i+1)]). Standard unbounded knapsack."
   },
@@ -2764,7 +2764,7 @@
     "name": "Week 7 Mastery Check: DSU & Knapsack State Optimization",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/coin-change/",
-    "article_url": "https://takeuforward.org/data-structure/0-1-knapsack-dp-19/",
+    "article_url": "https://takeuforward.org/practice/dsa/0-and-1-knapsack",
     "video_url": "https://www.youtube.com/watch?v=GqOmJHQvEBw",
     "notes": "Contrast 0-1 Knapsack (reverse iteration) vs Unbounded Knapsack (forward iteration). Re-implement DSU."
   },
@@ -2777,7 +2777,7 @@
     "name": "Minimum Falling Path Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/minimum-falling-path-sum/",
-    "article_url": "https://takeuforward.org/data-structure/minimum-falling-path-sum-dp-12/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-falling-path-sum",
     "video_url": "https://www.youtube.com/watch?v=N_aJ5qQbYA0",
     "notes": "dp[i][j] = matrix[i][j] + min(dp[i-1][j-1], dp[i-1][j], dp[i-1][j+1]). Answer is min of last row."
   },
@@ -2790,7 +2790,7 @@
     "name": "Partitions with Given Difference & Target Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/target-sum/",
-    "article_url": "https://takeuforward.org/data-structure/target-sum-dp-21/",
+    "article_url": "https://takeuforward.org/practice/dsa/target-sum",
     "video_url": "https://www.youtube.com/watch?v=b3GD8263-PQ",
     "notes": "s1 - s2 = d and s1 + s2 = total -> s1 = (total + d) // 2. Reduces to count subsets with sum s1!"
   },
@@ -2803,7 +2803,7 @@
     "name": "Count Subsets with Sum K",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1",
-    "article_url": "https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/count-subsets-with-sum-k",
     "video_url": "https://www.youtube.com/watch?v=ZHyb-A2M308",
     "notes": "Watch out for array elements equal to 0! Element 0 can be either picked or not picked (factor of 2^zeroes)."
   },
@@ -2816,7 +2816,7 @@
     "name": "Longest Common Subsequence (LCS)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/longest-common-subsequence/",
-    "article_url": "https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/",
+    "article_url": "https://takeuforward.org/practice/dsa/longest-common-subsequence",
     "video_url": "https://www.youtube.com/watch?v=NPZn9jBrX8U",
     "notes": "If s1[i-1] == s2[j-1]: dp[i][j] = 1 + dp[i-1][j-1]. Else: max(dp[i-1][j], dp[i][j-1]). Master printing too!"
   },
@@ -2829,7 +2829,7 @@
     "name": "Longest Palindromic Subsequence",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
-    "article_url": "https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/",
+    "article_url": "https://takeuforward.org/practice/dsa/longest-palindromic-subsequence",
     "video_url": "https://www.youtube.com/watch?v=6i_T5kkfv4A",
     "notes": "Directly equal to LCS(s, reverse(s)). Min insertions to make palindrome = len(s) - LPS(s)."
   },
@@ -2842,7 +2842,7 @@
     "name": "Minimum Operations to Convert String A to String B",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/delete-operation-for-two-strings/",
-    "article_url": "https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/",
+    "article_url": "https://takeuforward.org/practice/dsa/minimum-insertions-or-deletions-to-convert-string-a-to-b",
     "video_url": "https://www.youtube.com/watch?v=yMnHDept3Y4",
     "notes": "Deletions = len(s1) - LCS; Insertions = len(s2) - LCS. Total = len(s1) + len(s2) - 2*LCS."
   },
@@ -2855,7 +2855,7 @@
     "name": "Longest Common Substring",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/longest-common-substring1449/1",
-    "article_url": "https://takeuforward.org/data-structure/longest-common-substring-dp-27/",
+    "article_url": "https://takeuforward.org/practice/dsa/longest-common-substring",
     "video_url": "https://www.youtube.com/watch?v=_wP9mWNac5I",
     "notes": "Unlike subsequence, reset dp[i][j] = 0 when s1[i-1] != s2[j-1]. Track max value in entire table."
   },
@@ -2868,7 +2868,7 @@
     "name": "Shortest Common Supersequence",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/shortest-common-supersequence/",
-    "article_url": "https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/",
+    "article_url": "https://takeuforward.org/practice/dsa/shortest-common-supersequence",
     "video_url": "https://www.youtube.com/watch?v=xElxauBceSE",
     "notes": "Build LCS table. Backtrack from (m, n): if matching, take char once; if unequal, take char from branch that yielded max."
   },
@@ -2881,7 +2881,7 @@
     "name": "Distinct Subsequences (s contains t)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/distinct-subsequences/",
-    "article_url": "https://takeuforward.org/data-structure/distinct-subsequences-dp-32/",
+    "article_url": "https://takeuforward.org/practice/dsa/distinct-subsequences",
     "video_url": "https://www.youtube.com/watch?v=nVG7eTiD2bY",
     "notes": "If s[i-1] == t[j-1]: dp[i][j] = dp[i-1][j-1] + dp[i-1][j]. Else dp[i][j] = dp[i-1][j]. 1D space optimization."
   },
@@ -2894,7 +2894,7 @@
     "name": "Edit Distance (Insert, Delete, Replace)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/edit-distance/",
-    "article_url": "https://takeuforward.org/data-structure/edit-distance-dp-33/",
+    "article_url": "https://takeuforward.org/practice/dsa/edit-distance",
     "video_url": "https://www.youtube.com/watch?v=fJaKO8FbDdo",
     "notes": "If s1[i] == s2[j]: dp[i][j] = dp[i-1][j-1]. Else: 1 + min(insert: dp[i][j-1], delete: dp[i-1][j], replace: dp[i-1][j-1])."
   },
@@ -2907,7 +2907,7 @@
     "name": "Wildcard Matching ('?' and '*')",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/wildcard-matching/",
-    "article_url": "https://takeuforward.org/data-structure/wildcard-matching-dp-34/",
+    "article_url": "https://takeuforward.org/practice/dsa/wildcard-matching",
     "video_url": "https://www.youtube.com/watch?v=ZmlQ3vgAOMo",
     "notes": "If p[j]=='*': match 0 chars (dp[i][j-1]) or match 1 char and stay on * (dp[i-1][j])."
   },
@@ -2920,7 +2920,7 @@
     "name": "Best Time to Buy and Sell Stock II (Unlimited)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
-    "article_url": "https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-36/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/best-time-to-buy-and-sell-stock-ii",
     "video_url": "https://www.youtube.com/watch?v=nGJmxkUJQGs",
     "notes": "buy state = max(prev_buy, prev_sell - price); sell state = max(prev_sell, prev_buy + price)."
   },
@@ -2933,7 +2933,7 @@
     "name": "Best Time to Buy and Sell Stock with Cooldown & Transaction Fee",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
-    "article_url": "https://takeuforward.org/data-structure/buy-and-sell-stocks-with-cooldown-dp-39/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/best-time-to-buy-and-sell-stock-with-cooldown",
     "video_url": "https://www.youtube.com/watch?v=IGIe46xwHQw",
     "notes": "Cooldown: after sell on day i, can only buy on day i+2. Fee: subtract fee on sell."
   },
@@ -2946,7 +2946,7 @@
     "name": "Best Time to Buy and Sell Stock III & IV (At Most K Transactions)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
-    "article_url": "https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-38/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/best-time-to-buy-and-sell-stock-iv",
     "video_url": "https://www.youtube.com/watch?v=IV13846DA18",
     "notes": "State: dp[day][buy][cap]. When sell executes, decrement cap by 1. Base case: cap == 0 or day == n."
   },
@@ -2959,7 +2959,7 @@
     "name": "Longest Increasing Subsequence (O(N log N) BS Method)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
-    "article_url": "https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/",
+    "article_url": "https://takeuforward.org/practice/dsa/longest-increasing-subsequence",
     "video_url": "https://www.youtube.com/watch?v=on2hvxBXJH4",
     "notes": "Maintain tails array. For each x, binary search (lower_bound) position in tails. If at end, append. Else replace."
   },
@@ -2972,7 +2972,7 @@
     "name": "Largest Divisible Subset & Longest String Chain",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/largest-divisible-subset/",
-    "article_url": "https://takeuforward.org/data-structure/largest-divisible-subset-dp-44/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/largest-divisible-subset",
     "video_url": "https://www.youtube.com/watch?v=gDuZwBW9VvM",
     "notes": "Sort array. dp[i] = max(dp[i], 1 + dp[j]) if nums[i] % nums[j] == 0. Maintain hash/parent array to reconstruct subset."
   },
@@ -2985,7 +2985,7 @@
     "name": "Longest Bitonic Subsequence",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1",
-    "article_url": "https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/",
+    "article_url": "https://takeuforward.org/practice/dsa/longest-bitonic-subsequence",
     "video_url": "https://www.youtube.com/watch?v=y4vN0WNdPhg",
     "notes": "Compute LIS from left to right (dp1) and LIS from right to left (dp2). Max bitonic length = max(dp1[i] + dp2[i] - 1)."
   },
@@ -2998,7 +2998,7 @@
     "name": "Matrix Chain Multiplication (MCM)",
     "difficulty": "Hard",
     "practice_url": "https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1",
-    "article_url": "https://takeuforward.org/data-structure/matrix-chain-multiplication-dp-48/",
+    "article_url": "https://takeuforward.org/practice/dsa/matrix-chain-multiplication",
     "video_url": "https://www.youtube.com/watch?v=vRVfmbCFW7Y",
     "notes": "f(i, j) = min over k in [i, j-1] (f(i, k) + f(k+1, j) + arr[i-1]*arr[k]*arr[j]). Base case: i == j -> 0."
   },
@@ -3011,7 +3011,7 @@
     "name": "Burst Balloons",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/burst-balloons/",
-    "article_url": "https://takeuforward.org/data-structure/burst-balloons-dp-51/",
+    "article_url": "https://takeuforward.org/practice/dsa/burst-balloons",
     "video_url": "https://www.youtube.com/watch?v=Yz4LlDSlkns",
     "notes": "Work in reverse: pick the LAST balloon k to burst in range [i, j]. Coins = nums[i-1]*nums[k]*nums[j+1] + dp(i, k-1) + dp(k+1, j)."
   },
@@ -3024,7 +3024,7 @@
     "name": "Minimum Cost to Cut a Stick & Palindrome Partitioning II",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
-    "article_url": "https://takeuforward.org/data-structure/minimum-cost-to-cut-the-stick-dp-50/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-cost-to-merge-stones",
     "video_url": "https://www.youtube.com/watch?v=xwomavsC86c",
     "notes": "Sort cuts array and append [0, n]. dp[i][j] = (cuts[j] - cuts[i]) + min over k (dp[i][k] + dp[k][j])."
   },
@@ -3037,7 +3037,7 @@
     "name": "Count Square Submatrices with All Ones",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
-    "article_url": "https://takeuforward.org/data-structure/count-square-submatrices-with-all-ones-dp-56/",
+    "article_url": "https://takeuforward.org/practice/dsa/count-square-submatrices-with-all-one",
     "video_url": "https://www.youtube.com/watch?v=auS1JhsN-Ek",
     "notes": "dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) if matrix[i][j] == 1. Sum of all dp[i][j] is answer!"
   },
@@ -3050,7 +3050,7 @@
     "name": "House Robber III (DP on Trees)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/house-robber-iii/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/house-robber-iii",
     "video_url": "https://www.youtube.com/watch?v=GrMBrJNk_NY",
     "notes": "Postorder traversal returning (rob_root, skip_root). rob = node.val + left.skip + right.skip; skip = max(left) + max(right)."
   },
@@ -3063,7 +3063,7 @@
     "name": "Partition Array for Maximum Sum",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/partition-array-for-maximum-sum/",
-    "article_url": "https://takeuforward.org/data-structure/partition-array-for-maximum-sum-dp-54/",
+    "article_url": "https://takeuforward.org/practice/dsa/partition-array-for-maximum-sum",
     "video_url": "https://www.youtube.com/watch?v=PhWWJmaKfMc",
     "notes": "Try all partitions of length 1 to k starting at index i: max_elem * len + dp[i + len]."
   },
@@ -3076,7 +3076,7 @@
     "name": "Palindrome Partitioning II (Minimum Cuts)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/palindrome-partitioning-ii/",
-    "article_url": "https://takeuforward.org/data-structure/palindrome-partitioning-ii-dp-53/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/palindrome-partitioning-ii-minimum-cuts",
     "video_url": "https://www.youtube.com/watch?v=_H8V5hGDdfU",
     "notes": "dp[i] = min over j in [i, n-1] (1 + dp[j+1]) if s[i:j+1] is palindrome. Answer is dp[0] - 1."
   },
@@ -3089,7 +3089,7 @@
     "name": "Phase 8 Mastery Check: The 7 DP Archetypes",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/edit-distance/",
-    "article_url": "https://takeuforward.org/data-structure/edit-distance-dp-33/",
+    "article_url": "https://takeuforward.org/practice/dsa/edit-distance",
     "video_url": "https://www.youtube.com/watch?v=fJaKO8FbDdo",
     "notes": "Write out state transition equations for: 1) 0-1 Knapsack 2) LCS 3) Edit Distance 4) LIS 5) MCM. Review nuances."
   },
@@ -3102,7 +3102,7 @@
     "name": "Burst Balloons Benchmark",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/burst-balloons/",
-    "article_url": "https://takeuforward.org/data-structure/burst-balloons-dp-51/",
+    "article_url": "https://takeuforward.org/practice/dsa/burst-balloons",
     "video_url": "https://www.youtube.com/watch?v=Yz4LlDSlkns",
     "notes": "Benchmark: Reconstruct the reverse burst intuition from a blank sheet."
   },
@@ -3115,7 +3115,7 @@
     "name": "Wildcard Matching Benchmark",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/wildcard-matching/",
-    "article_url": "https://takeuforward.org/data-structure/wildcard-matching-dp-34/",
+    "article_url": "https://takeuforward.org/practice/dsa/wildcard-matching",
     "video_url": "https://www.youtube.com/watch?v=ZmlQ3vgAOMo",
     "notes": "Benchmark: Handle '*' empty string match vs 1+ character match with 1D row array."
   },
@@ -3128,7 +3128,7 @@
     "name": "Kth Largest Element in an Array",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
-    "article_url": "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/",
+    "article_url": "https://takeuforward.org/practice/dsa/k-th-largest-element-in-an-array",
     "video_url": "https://www.youtube.com/watch?v=yAs3tTNzH2M",
     "notes": "Min-heap of size K. If len > K, pop. Root will be the Kth largest element. O(N log K)."
   },
@@ -3141,7 +3141,7 @@
     "name": "Task Scheduler (CPU Cooling)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/task-scheduler/",
-    "article_url": "https://takeuforward.org/data-structure/task-scheduler-leetcode/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/task-scheduler",
     "video_url": "https://www.youtube.com/watch?v=rYh-KKBzU4Q",
     "notes": "Formula: max((max_freq - 1) * (n + 1) + count(max_freq), len(tasks)). Or Max-Heap + Queue cooldown."
   },
@@ -3154,7 +3154,7 @@
     "name": "Hand of Straights (Consecutive Cards)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/hand-of-straights/",
-    "article_url": "https://takeuforward.org/data-structure/hand-of-straights-leetcode/",
+    "article_url": "https://takeuforward.org/practice/dsa/hand-of-straights",
     "video_url": "https://www.youtube.com/watch?v=lpVhzcdiHmA",
     "notes": "Min-heap of card values + frequency map. Greedily form groups of size groupSize starting from min."
   },
@@ -3167,7 +3167,7 @@
     "name": "Merge K Sorted Lists",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
-    "article_url": "https://takeuforward.org/data-structure/merge-k-sorted-arrays/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/merge-k-sorted-arrays",
     "video_url": "https://www.youtube.com/watch?v=1z5JflGKvOk",
     "notes": "Min-heap storing (node.val, i, node). Pop smallest, attach to result, push node.next into heap."
   },
@@ -3180,7 +3180,7 @@
     "name": "Find Median from Data Stream",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/find-median-from-data-stream/",
-    "article_url": "https://takeuforward.org/data-structure/find-median-from-data-stream/",
+    "article_url": "https://takeuforward.org/practice/dsa/find-median-from-data-stream",
     "video_url": "https://www.youtube.com/watch?v=1CxyVdA_654",
     "notes": "Max-heap for lower half, Min-heap for upper half. Balance sizes such that max_heap has at most 1 more element."
   },
@@ -3193,7 +3193,7 @@
     "name": "N Meetings in One Room & Non-Overlapping Intervals",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/non-overlapping-intervals/",
-    "article_url": "https://takeuforward.org/data-structure/n-meetings-in-one-room/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/n-meetings-in-one-room",
     "video_url": "https://www.youtube.com/watch?v=mKpfq84uBfM",
     "notes": "Sort by end time! Pick meeting with earliest end time to leave maximum room for future meetings."
   },
@@ -3206,7 +3206,7 @@
     "name": "Minimum Platforms Required for Railway",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1",
-    "article_url": "https://takeuforward.org/data-structure/minimum-platforms-required-on-a-railway-station/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/minimum-platforms-required-for-a-railway-station",
     "video_url": "https://www.youtube.com/watch?v=AsGzwR_FWdQ",
     "notes": "Sort arrivals and departures separately. If arr[i] <= dep[j]: platform++, i++. Else: platform--, j++."
   },
@@ -3219,7 +3219,7 @@
     "name": "Jump Game I & Jump Game II",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/jump-game/",
-    "article_url": "https://takeuforward.org/data-structure/jump-game-i/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/jump-game",
     "video_url": "https://www.youtube.com/watch?v=tZAa_jJ3SwQ",
     "notes": "Track maxReach. In Jump Game II: maintain current interval [l, r], update jumps++ when crossing r."
   },
@@ -3232,7 +3232,7 @@
     "name": "Insert Interval",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/insert-interval/",
-    "article_url": "https://takeuforward.org/data-structure/insert-interval/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/insert-interval",
     "video_url": "https://www.youtube.com/watch?v=xxRE-4unV7M",
     "notes": "Add all non-overlapping before, merge all overlapping into newInterval, add all non-overlapping after."
   },
@@ -3245,7 +3245,7 @@
     "name": "Job Sequencing Problem with Deadlines",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1",
-    "article_url": "https://takeuforward.org/data-structure/job-sequencing-problem/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/job-sequencing-problem",
     "video_url": "https://www.youtube.com/watch?v=LjPx4wQaRIs",
     "notes": "Sort jobs by profit descending. Place each job on the latest possible free day before its deadline (or use DSU)."
   },
@@ -3258,7 +3258,7 @@
     "name": "Candy (Distribution)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/candy/",
-    "article_url": "https://takeuforward.org/data-structure/candy-problem-leetcode/",
+    "article_url": "https://takeuforward.org/practice/dsa/candy",
     "video_url": "https://www.youtube.com/watch?v=IIqVFvU6PBM",
     "notes": "Left-to-right pass: if rating[i] > rating[i-1], candy[i] = candy[i-1] + 1. Right-to-left: candy[i] = max(candy[i], candy[i+1] + 1)."
   },
@@ -3271,7 +3271,7 @@
     "name": "Implement Trie I (Insert, Search, StartsWith)",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
-    "article_url": "https://takeuforward.org/data-structure/implement-trie-1/",
+    "article_url": "https://takeuforward.org/practice/dsa/trie-implementation-and-operations",
     "video_url": "https://www.youtube.com/watch?v=dBGUmUQhjaM",
     "notes": "TrieNode with children array [26] and isEnd flag. Traverse root down character by character."
   },
@@ -3284,7 +3284,7 @@
     "name": "Maximum XOR of Two Numbers in an Array",
     "difficulty": "Medium",
     "practice_url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-xor-of-two-numbers-in-an-array-trie/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-xor-of-two-numbers-in-an-array",
     "video_url": "https://www.youtube.com/watch?v=EIhAwfHubE8",
     "notes": "Insert 32-bit binary representations into Trie. For each number, greedily branch to opposite bit (1-bit) to maximize XOR."
   },
@@ -3297,7 +3297,7 @@
     "name": "Implement Trie II (Prefix with Counts)",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/trie-insert-and-search0651/1",
-    "article_url": "https://takeuforward.org/data-structure/implement-trie-ii/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/trie-ii-count-words-erase",
     "video_url": "https://www.youtube.com/watch?v=K5pcpkEMCN0",
     "notes": "TrieNode stores countEndsWith and countPrefix. countPrefix increments at every passing node."
   },
@@ -3310,7 +3310,7 @@
     "name": "Complete String / Longest Word With All Prefixes",
     "difficulty": "Medium",
     "practice_url": "https://www.geeksforgeeks.org/problems/longest-string-chain/1",
-    "article_url": "https://takeuforward.org/data-structure/complete-string-longest-string-with-all-prefixes/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/longest-word-with-all-prefixes",
     "video_url": "https://www.youtube.com/watch?v=AWnBa91lThI",
     "notes": "Insert all words in Trie. For each word, check if every prefix node has isEnd == True."
   },
@@ -3323,7 +3323,7 @@
     "name": "Maximum XOR With an Element From Array",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
-    "article_url": "https://takeuforward.org/data-structure/maximum-xor-queries-trie/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/maximum-xor-queries-trie",
     "video_url": "https://www.youtube.com/watch?v=Q8LhG7JPTTU",
     "notes": "Sort numbers and sort queries offline by limit m. Incrementally insert numbers <= m into Bitwise Trie."
   },
@@ -3336,7 +3336,7 @@
     "name": "Day 60 Pro Assessment & Interview Readiness Checklist",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problemset/all/",
-    "article_url": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+    "article_url": "https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet",
     "video_url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz",
     "notes": "Run 3-problem mock: 1 Graph/Tree, 1 DP, 1 Array/Window. 90 minutes. Congratulations on finishing the 60-Day Pro Journey!"
   },
@@ -3349,7 +3349,7 @@
     "name": "Word Ladder II (Find All Shortest Sequences)",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/word-ladder-ii/",
-    "article_url": "https://takeuforward.org/data-structure/word-ladder-ii-g-30/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/word-ladder-ii",
     "video_url": "https://www.youtube.com/watch?v=DREutrv2gz0",
     "notes": "Step 1: BFS to find shortest distance from beginWord to all words. Step 2: DFS backtrack from endWord."
   },
@@ -3362,7 +3362,7 @@
     "name": "Median of Two Sorted Arrays Mock Benchmark",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-    "article_url": "https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/median-of-2-sorted-arrays",
     "video_url": "https://www.youtube.com/watch?v=C2rRzz-QkU4",
     "notes": "Final benchmark: Partition logic cut1 and cut2 in O(log(min(m, n)))."
   },
@@ -3375,7 +3375,7 @@
     "name": "Serialize and Deserialize Binary Tree Mock Benchmark",
     "difficulty": "Hard",
     "practice_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
-    "article_url": "https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/",
+    "article_url": "https://takeuforward.org/blogs/data-structure-and-algorithm/serialize-and-deserialize-a-binary-tree",
     "video_url": "https://www.youtube.com/watch?v=-YbXySKJsX8",
     "notes": "Final benchmark: Clean string formatting, queue reconstruction."
   }
